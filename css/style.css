@@ -1,0 +1,625 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'SF UI Display', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.header__info--lang-list,
+.skills--list,
+.experience__list,
+.certificates__list,
+.projects__list,
+.footer__social-list {
+    list-style: none;
+}
+
+.header__info--lang-list,
+.skills--list,
+.experience__list,
+.certificates__list,
+.footer__social-list {
+    display: flex;
+}
+
+/*fonts*/
+
+.header__info--content {
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.header__contacts--content,
+.header__contacts--download {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.section-header{
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.skills-item__header,
+.experience__item--header,
+.projects__item--link {
+    font-size: 25px;
+    line-height: 34px;
+}
+
+/*
+.skills-item__header {
+    text-align: center;
+}*/
+
+.skills-item__header,
+.experience__item--header {
+    font-weight: 600;
+}
+
+.education__content {
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+.experience__item--duration {
+    color: #021422;
+    opacity: 0.5;
+}
+
+/*.projects__item--content {
+    font-size: 24px;
+    line-height: 33px;
+}*/
+
+/*links*/
+
+.header__contacts--link,
+.certificates__item--link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.header__contacts--link:hover,
+.header__contacts--link:focus,
+.certificates__item--link:hover,
+.certificates__item--link:focus,
+.experience__item--link:hover,
+.experience__item--link:focus,
+.projects__item--link:hover,
+.projects__item--link:focus,
+.footer__social-item--link:hover,
+.footer__social-item--link:focus {
+    opacity: 0.6;
+}{
+    opacity: 0.4;
+}
+
+.header__contacts--link:active,
+.certificates__item--link:active,
+.projects__item--link:active,
+.footer__social-item--link:active {
+    opacity: 0.2;
+}
+
+.experience__item--link,
+.projects__item--link {
+    color: inherit;
+}
+
+/*todo: сделать выделение блока*/
+
+/*images and icons*/
+
+.header__info--photo {
+    width: 96px;
+    height: 96px;
+    background-color: darkgrey;
+}
+
+.header__info--lang-ico {
+    width: 30px;
+    height: 30px;
+    opacity: 0.6;
+}
+
+.header__info--selected {
+    opacity: 1;
+}
+
+.header__info--lang-item {
+    margin: 0 10px 0 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.skills-item__image--helm-ico {
+    width: 96px;
+    height: 96px;
+}
+
+.skills-item__image--bar-chart-ico {
+    width: 92px;
+    height: 96px;
+}
+
+.skills-item__image--coding-ico {
+    width: 77px;
+    height: 96px;
+}
+
+.experience__item--tochka-logo {
+    width: 183px;
+    height: 120px;
+}
+
+.experience__item--ideco-logo {
+    width: 160px;
+    height: 50px;
+}
+
+.experience__item--index-art-logo {
+    width: 157px;
+    height: 64px;
+}
+
+.experience__item--mn-logo {
+    width: 166px;
+    height: 45px;
+}
+
+.experience__item--peleng-logo {
+    width: 145px;
+    height: 90px;
+}
+
+/* todo: вставить икноку для пеленга*/
+
+.certificates__item--diploma-image {
+    width: 72px;
+    height: 113px;
+}
+
+.projects__item--test-security-ico {
+    width: 77px;
+    height: 85px;
+}
+
+.projects__item--hardware-ico {
+    width: 69px;
+    height: 68px;
+}
+
+.projects__item--music-player-ico {
+    width: 63px;
+    height: 63px;
+}
+
+.projects__item--new-year-ico {
+    width: 71px;
+    height: 100px;
+}
+
+.footer__social-item {
+    border-radius: 50% 50%;
+}
+
+/*todo: сделать иконки*/
+
+.footer__social-item--ico {
+    width: 48px;
+    height: 48px;
+}
+
+/*positions*/
+
+.container {
+    /*padding: 0 175px;*/
+}
+
+.header {
+    padding: 20px 10%;
+    display: flex;
+    box-shadow: -1px 3px 2px 0 rgba(0,0,0,0.25);
+    margin: 0 0 25px;
+}
+
+.skills,
+.education,
+.certificates,
+.projects,
+.motivation,
+.footer {
+    padding: 0 10%;
+}
+
+.section-header {
+    margin: 0;
+}
+
+.header__info,
+.header__contacts {
+    width: 50%;
+}
+
+.header__info--lang-list {
+    margin: 0;
+    padding: 0;
+}
+
+.header__info {
+    display: flex;
+}
+
+.header__info--photo {
+    margin: 0 15px 0 0;
+}
+
+.header__contacts {
+    text-align: right;
+}
+
+.header__info--content {
+    margin: auto 0 34px;
+}
+
+.header__contacts--content {
+    margin: 0 0 10px;
+}
+
+.header__contacts--download {
+    background-color: #64B5F6;
+    color: #FFFFFF;
+    border-radius: 10px 10px;
+}
+
+.header__contacts--download:hover,
+.header__contacts--download:focus {
+    background-color: #2196F3;
+    cursor: pointer;
+    outline: none;
+}
+
+.header__contacts--download:active {
+    background-color: #1976D2;
+}
+
+.skills {
+    margin: 0 0 50px;
+}
+
+.skills--list {
+    padding: 0;
+    margin: 20px 0 10px;
+    justify-content: space-between;
+}
+
+.skills-item--col-1 {
+    width: 320px;
+}
+
+.skills-item--col-2 {
+    width: 315px;
+}
+
+.skills-item--col-3 {
+    width: 195px;
+}
+
+.skills-item__detail-list {
+    padding: 0 0 0 20px;
+}
+
+.skills-item__image {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.skills-item__image--bar-chart-ico {
+    margin: 0 0 20px 20px;
+}
+
+.skills-item__image--helm-ico {
+    margin: 0 0 20px 100px;
+}
+
+.skills-item__header {
+    margin: 0 0 10px;
+}
+
+.education {
+    margin: 0 0 50px;
+}
+
+.experience {
+    margin: 0 0 40px;
+}
+
+.experience__list {
+    margin: 10px 0 0;
+    padding: 20px 10% 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #F9F9F9;
+    background-image: url('../img/experience-bkg-1440.png');
+    background-position: 30px 50px;
+}
+
+.experience__item--header-container {
+    height: 120px;
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience__item--logo {
+    margin: auto 0;
+}
+
+.experience__item--header{
+    width: 270px;
+    margin: auto 0;
+}
+
+.experience__item {
+    width: 520px;
+    height: 390px;
+    padding: 20px 25px;
+    margin: 0 0 20px 0;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 4px 4px;
+    box-shadow: 2px 3px 5px 0 rgba(0,0,0,0.25);
+    box-sizing: border-box;
+    background-color: #FFF;
+}
+
+.experience__item:nth-of-type(2n-1) {
+    margin: 0 0 20px 0;
+}
+
+.experience__item:last-of-type {
+    margin: 0 auto;
+}
+
+.experience__item--duration {
+    margin: 0 0 15px;
+}
+
+.experience__item--content {
+    margin: 0;
+}
+
+.experience__item--list {
+    padding: 0 0 0 20px;
+}
+
+.certificates {
+    margin: 0 0 60px;
+}
+
+.certificates__list {
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.certificates__item {
+    width: 300px;
+    padding: 20px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 20px 20px;
+    box-sizing: border-box;
+}
+
+.certificates__item:hover,
+.certificates__item:focus {
+    box-shadow: 2px 3px 5px 4px rgba(0,0,0,0.25)
+}
+
+.certificates__item--link {
+    display: block;
+    text-align: center;
+}
+
+.certificates__item--diploma-image {
+    display: block;
+    margin: 0 auto 25px;
+}
+
+.projects__list {
+    padding: 40px 0 0;
+    margin: 0 0 100px;
+}
+
+.projects__item {
+    width: 630px;
+    margin: 0 auto 50px;
+    display: flex;
+}
+
+.projects__item--ico {
+    margin: auto 100px auto 0;
+}
+
+.projects__item--link {
+    display: block;
+    margin: 0 0 10px;
+}
+
+.projects__item--content {
+    margin: 0;
+}
+
+.motivation {
+    margin: 0 0 100px;
+}
+
+.motivation--container {
+    padding: 25px 35px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 4px 4px;
+    box-shadow: 2px 3px 5px 0 rgba(0,0,0,0.25);
+}
+
+.motivation__content {
+    margin: 15px 0 0;
+    text-align: center;
+}
+
+.footer__social-list {
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 310px;
+    justify-content: space-between;
+}
+
+/*adaptive*/
+
+@media screen and (max-width: 1300px) {
+    .header {
+        padding: 43px 40px;
+    }
+
+    .skills,
+    .education,
+    .certificates,
+    .projects,
+    .motivation,
+    .footer {
+        padding: 0 40px;
+    }
+
+    .experience__list {
+        padding: 20px 40px 40px;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 1120px) {
+    .experience__list {
+        background-image: url('../img/experience-bkg-1024.png');
+        background-position: -25px 35px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .skills--list {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .skills-item {
+        margin: 0 0 30px;
+    }
+
+    .skills-item__header {
+        text-align: center;
+    }
+
+    .skills-item__image {
+        margin: auto;
+    }
+
+    .projects__list {
+        margin: 0px;
+    }
+
+    .motivation {
+        margin: 0 0 30px;
+    }
+
+    .projects__item--ico {
+        margin: auto 50px 0 0;
+    }
+
+    .footer__social-list {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .projects__item {
+        width: 570px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+
+    body {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .section-header {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .header__info--content,
+    .skills-item__header,
+    .projects__item--link{
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .experience__item--header {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .projects__item--content {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .header {
+        padding: 20px 20px;
+    }
+
+    .skills-item__detail-list {
+        padding: 0 0 0 70px;
+    }
+
+    .skills {
+        margin: 0 0 20px;
+    }
+
+    .experience__item--header{
+        width: 210px;
+    }
+
+    .certificates {
+        margin: 0 0 50px;
+        padding: 0 20px;
+    }
+
+    .certificates__item {
+        width: 215px;
+    }
+
+    .projects__item {
+        width: 450px;
+    }
+
+    .experience__list {
+        background-image: none;
+        background-position: 25px 35px;
+    }
+
+}
