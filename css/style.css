@@ -1,10 +1,11 @@
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-family: 'SF UI Display', 'Arial', sans-serif;
     font-size: 18px;
     line-height: 23px;
     color: #000000;
+    max-width: 1600px;
 }
 
 .visually-hidden {
@@ -13,6 +14,10 @@ body {
     width: 1px;
     height: 1px;
     margin: -1px;
+}
+
+.font--uppercase {
+    text-transform: uppercase;
 }
 
 .header__info--lang-list,
@@ -281,6 +286,7 @@ body {
 .header__contacts--download {
     background-color: #64B5F6;
     color: #FFFFFF;
+    border: none;
     border-radius: 10px 10px;
 }
 
