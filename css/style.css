@@ -458,8 +458,12 @@ body {
 
 .projects__item {
     width: 630px;
-    margin: 0 auto 50px;
+    margin: 0 auto 20px;
+    padding: 20px 10px;
     display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 20px 20px;
+    box-sizing: border-box;
 }
 
 .projects__item--ico {
@@ -613,7 +617,7 @@ body {
         margin: 0 0 20px;
     }
 
-    .experience__item--header{
+    .experience__item--caption {
         width: 210px;
     }
 
