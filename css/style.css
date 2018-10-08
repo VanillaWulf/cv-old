@@ -69,7 +69,8 @@ body {
 }*/
 
 .skills-item__header,
-.experience__item--header {
+.experience__item--header,
+.experience__item--company{
     font-weight: 600;
 }
 
@@ -106,8 +107,6 @@ body {
 .footer__social-item--link:hover,
 .footer__social-item--link:focus {
     opacity: 0.6;
-}{
-    opacity: 0.4;
 }
 
 .header__contacts--link:active,
@@ -373,9 +372,18 @@ body {
     margin: auto 0;
 }
 
-.experience__item--header{
+.experience__item--caption {
     width: 270px;
     margin: auto 0;
+}
+
+.experience__item--header {
+    margin: 0 0 7px 0;
+
+}
+
+.experience__item--company {
+    margin: 0;
 }
 
 .experience__item {
