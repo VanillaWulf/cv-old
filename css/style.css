@@ -762,8 +762,14 @@ body {
         margin: 0 0 10px;
     }
 
-    .header__contacts--content:last-of-type {
-        margin: 0 0 25px;
+    .header__contacts {
+        position: relative;
+    }
+
+    .header__contacts--download {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
     }
 
     .header__contacts--name {
@@ -804,6 +810,7 @@ body {
         align-items: center;
         margin: 0 0 5px;
         height: auto;
+        width: 100%;
     }
 
     .experience__item--logo {
@@ -812,6 +819,8 @@ body {
 
     .experience__item--caption {
         margin: 0;
+        width: 100%;
+        text-align: center;
     }
 
     .experience__item--header {
@@ -821,6 +830,7 @@ body {
     .experience__item--duration {
         width: 100%;
         margin: 0 0 7px;
+        text-align: center;
     }
 
     /*expirience*/
