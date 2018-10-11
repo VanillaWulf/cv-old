@@ -1,11 +1,9 @@
 body {
-    margin: auto;
     padding: 0;
     font-family: 'SF UI Display', 'Arial', sans-serif;
     font-size: 18px;
     line-height: 23px;
     color: #000000;
-    max-width: 1600px;
 }
 
 .visually-hidden {
@@ -14,6 +12,11 @@ body {
     width: 1px;
     height: 1px;
     margin: -1px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
 }
 
 .font--uppercase {
@@ -284,6 +287,10 @@ body {
     margin: auto 0 34px;
 }
 
+.header__contacts--name {
+    display: none;
+}
+
 .header__contacts--content {
     margin: 0 0 10px;
 }
@@ -468,8 +475,8 @@ body {
 }
 
 .projects__list {
-    padding: 40px 0 0;
-    margin: 0 0 100px;
+    padding: 20px 0 0;
+    margin: 0 0 50px;
 }
 
 /*.projects__item {*/
@@ -517,7 +524,7 @@ body {
 }
 
 .motivation {
-    margin: 0 0 100px;
+    margin: 0 0 50px;
 }
 
 .motivation--container {
@@ -591,7 +598,7 @@ body {
     }
 
     .projects__list {
-        margin: 0px;
+        margin: 0 0 30px;
     }
 
     .motivation {
@@ -690,6 +697,70 @@ body {
     .experience__list {
         background-image: none;
         background-position: 25px 35px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    body {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    .header__contacts--content,
+    .header__contacts--download,
+    .header__info--content {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .header {
+        margin: 0 0 15px;
+        padding: 10px 10px;
+    }
+
+    .header__contacts--title,
+    .header__info--content {
+        display: none;
+    }
+
+    .header__info {
+        flex-direction: column;
+    }
+
+    .header__info--photo {
+        margin: 0 15px 10px 0;
+    }
+
+    .header__info--lang-list {
+        margin: 0 0 0 13px;
+    }
+
+    .header__info--content {
+        margin: 0 0 10px;
+    }
+
+    .header__contacts--content:last-of-type {
+        margin: 0 0 25px;
+    }
+
+    .header__contacts--name {
+        display: block;
+        margin: 0 0 10px 0;
+    }
+
+    .skills,
+    .education,
+    .certificates,
+    .projects,
+    .motivation,
+    .footer {
+        padding: 0 10px;
     }
 
 }
