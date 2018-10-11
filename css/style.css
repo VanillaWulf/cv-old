@@ -716,12 +716,17 @@ body {
         font-size: 15px;
     }
 
+    .experience__item--header {
+        font-size: 14px;
+        line-height: 18px   ;
+    }
+
     .projects__item--content {
         font-size: inherit;
     }
 
     .container {
-        width: 300px;
+        min-width: 300px;
     }
 
     .header__contacts--content,
@@ -768,6 +773,7 @@ body {
 
     .skills,
     .education,
+    .experience,
     .certificates,
     .projects,
     .motivation {
@@ -776,6 +782,7 @@ body {
 
     .skills,
     .education,
+    .experience,
     .certificates,
     .projects,
     .motivation,
@@ -785,6 +792,35 @@ body {
 
     .experience__item {
         width: 280px;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience__item--header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 5px;
+        height: auto;
+    }
+
+    .experience__item--logo {
+        margin: 0 0 10px;
+    }
+
+    .experience__item--caption {
+        margin: 0;
+    }
+
+    .experience__item--header {
+        margin: 0 0 5px;
+    }
+
+    .experience__item--duration {
+        width: 100%;
+        margin: 0 0 7px;
     }
 
     /*expirience*/
