@@ -319,7 +319,7 @@ body {
 
 .skills--list {
     padding: 0;
-    margin: 20px 0 10px;
+    margin: 20px 0 0;
     justify-content: space-between;
 }
 
@@ -589,6 +589,10 @@ body {
         margin: 0 0 30px;
     }
 
+    .skills-item:last-of-type {
+        margin: 0;
+    }
+
     .skills-item__header {
         text-align: center;
     }
@@ -663,9 +667,9 @@ body {
         padding: 0 0 0 70px;
     }
 
-    .skills {
-        margin: 0 0 20px;
-    }
+    /*.skills {*/
+        /*margin: 0 0 20px;*/
+    /*}*/
 
     .experience__item {
         height: 350px;
@@ -704,8 +708,16 @@ body {
 @media screen and (max-width: 550px) {
 
     body {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 18px;
+    }
+
+    .projects__item--header {
+        font-size: 15px;
+    }
+
+    .projects__item--content {
+        font-size: inherit;
     }
 
     .container {
@@ -758,9 +770,87 @@ body {
     .education,
     .certificates,
     .projects,
+    .motivation {
+        margin: 0 0 30px;
+    }
+
+    .skills,
+    .education,
+    .certificates,
+    .projects,
     .motivation,
     .footer {
         padding: 0 10px;
     }
+
+    .experience__item {
+        width: 280px;
+    }
+
+    /*expirience*/
+
+    .certificates__item--link {
+        width: 130px;
+        height: 170px;
+        padding: 10px 5px;
+    }
+
+    .certificates__item--diploma-image {
+        margin: 0 auto 5px;
+    }
+
+    .projects__item--link {
+        width: 280px;
+        padding: 10px 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects__item--container {
+        margin: 0 0 5px;
+    }
+
+    .projects__item--description {
+        width: 100%;
+        text-align: center;
+    }
+
+    .projects__item--header {
+        text-align: center;
+    }
+
+    .footer__social-list {
+        width: 70%;
+        justify-content: space-between;
+    }
+
+    .footer__social-item--ico {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    /*.projects__item--container {*/
+        /*width: 40px;*/
+    /*}*/
+
+    /*.projects__item--description {*/
+        /*width: 220px;*/
+    /*}*/
+
+    /*.projects__item--ico {*/
+        /*width: 30px;*/
+        /*height: 30px;*/
+    /*}*/
+
+    .projects__item--header {
+        margin: 0 0 3px;
+    }
+
+    .projects__item--content {
+
+    }
+
 
 }
