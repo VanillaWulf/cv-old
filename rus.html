@@ -6,6 +6,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/swiper.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -132,7 +133,7 @@
                             <p class="experience__item--company">РА «Index Art»</p>
                         </div>
                     </div>
-                    <div class="swiper-container">
+                    <div class="swiper-container swiper-1">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <p class="experience__item--duration">с января 2017 по октябрь 2017</p>
@@ -146,7 +147,9 @@
                                     <li class="experience__item--item">производство биодобавок.</li>
                                 </ul>
                             </div>
-                            <div class="swiper-slide">test</div>
+                            <div class="swiper-slide">
+                                test
+                            </div>
                         </div>
                         <div class="swiper-pagination"></div>
                         <div class="swiper-button-prev"></div>
@@ -161,15 +164,27 @@
                             <p class="experience__item--company">РА «ManyLetters»</p>
                         </div>
                     </div>
-                    <p class="experience__item--duration">с декабря 2015 по сентябрь 2016</p>
-                    <p class="experience__item--content">Мы делали SEO, контекст и SMM для сфер:</p>
-                    <ul class="experience__item--list">
-                        <li class="experience__item--item">ремонт и продажа машин;</li>
-                        <li class="experience__item--item">развлечения;</li>
-                        <li class="experience__item--item">продажа туриститического снаряжения;</li>
-                        <li class="experience__item--item">кафе и рестараны;</li>
-                        <li class="experience__item--item">строительные материалы.</li>
-                    </ul>
+                    <div class="swiper-container swiper-2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p class="experience__item--duration">с декабря 2015 по сентябрь 2016</p>
+                                <p class="experience__item--content">Мы делали SEO, контекст и SMM для сфер:</p>
+                                <ul class="experience__item--list">
+                                    <li class="experience__item--item">ремонт и продажа машин;</li>
+                                    <li class="experience__item--item">развлечения;</li>
+                                    <li class="experience__item--item">продажа туриститического снаряжения;</li>
+                                    <li class="experience__item--item">кафе и рестараны;</li>
+                                    <li class="experience__item--item">строительные материалы.</li>
+                                </ul>
+                            </div>
+                            <div class="swiper-slide">
+                                content
+                            </div>
+                        </div>
+                        <div class="swiper-pagination-2"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
                 </li>
                 <li class="experience__item">
                     <div class="experience__item--header-container">
@@ -312,5 +327,33 @@
 </div>
 <script src="js/scripts.js"></script>
 <script src="js/swiper.min.js"></script>
+
+<script>
+    // var swiper = new Swiper('.swiper-container', {
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev',
+    //     },
+    // });
+
+    let swiper1 = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+    // let swiper2 = new Swiper('.swiper2', {
+    //     pagination: {
+    //         el: '.swiper-pagination2',
+    //     },
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev',
+    //     },
+    // });
+</script>
 </body>
 </html>
