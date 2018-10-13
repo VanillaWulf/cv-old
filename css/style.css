@@ -414,6 +414,10 @@ body {
     position: relative;
 }
 
+.experience__item--container {
+    position: relative;
+}
+
 .experience__item--switcher {
     position: absolute;
     bottom: 10px;

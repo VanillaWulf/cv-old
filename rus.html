@@ -88,6 +88,7 @@
                             <p class="experience__item--company">Банк «Точка»</p>
                         </div>
                     </div>
+                    <div claass="experience__item--container">
                     <div class="experience__item--container experience__item--card-1-1 display-block">
                     <p class="experience__item--duration">с июля 2018 по настоящее время</p>
                         <p class="experience__item--content">Я разрабатваю и поддерживаю front-end для CRM:</p>
@@ -105,6 +106,7 @@
                     <div class="experience__item--switcher">
                         <button class="experience__item--switcher-button experience__item--switcher-active" id="experience__item--switcher-1-1"></button>
                         <button class="experience__item--switcher-button" id="experience__item--switcher-1-2"></button>
+                    </div>
                     </div>
                 </li>
                 <li class="experience__item">
@@ -337,23 +339,12 @@
     // });
 
     let swiper1 = new Swiper('.swiper-container', {
-        pagination: {
-            el: '.swiper-pagination',
-        },
+        pagination:'.swiper-pagination',
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
     });
-    // let swiper2 = new Swiper('.swiper2', {
-    //     pagination: {
-    //         el: '.swiper-pagination2',
-    //     },
-    //     navigation: {
-    //         nextEl: '.swiper-button-next',
-    //         prevEl: '.swiper-button-prev',
-    //     },
-    // });
 </script>
 </body>
 </html>
