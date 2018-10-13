@@ -5,6 +5,7 @@
     <title>CV</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -86,9 +87,24 @@
                             <p class="experience__item--company">Банк «Точка»</p>
                         </div>
                     </div>
+                    <div class="experience__item--container experience__item--card-1-1 display-block">
                     <p class="experience__item--duration">с июля 2018 по настоящее время</p>
-                    <p class="experience__item--content">Моя основная цель - помочь людям быть счастливее.
-                        Я занимаюсь разработкой и поддержкой CRM, которую используют сотрудники онлайн офиса. Наша команда помогает сделать сервис качественным и оперативным. Стоит отметить, что в команде я один фронт-енд разработчик.</p>
+                        <p class="experience__item--content">Я разрабатваю и поддерживаю front-end для CRM:</p>
+                        <ul class="experience__item--list">
+                            <li class="experience__item--item">пишу новые компоненты на Angular;</li>
+                            <li class="experience__item--item">верстаю новые страницы;</li>
+                            <li class="experience__item--item">переписываю старые компоненты;</li>
+                            <li class="experience__item--item">поддерживаю систему.</li>
+                        </ul>
+                    </div>
+                    <div class="experience__item--container experience__item--card-1-2">
+                        <p class="experience__item--duration">Достижения</p>
+                        <p class="experience__item--content">content</p>
+                    </div>
+                    <div class="experience__item--switcher">
+                        <button class="experience__item--switcher-button experience__item--switcher-active" id="experience__item--switcher-1-1"></button>
+                        <button class="experience__item--switcher-button" id="experience__item--switcher-1-2"></button>
+                    </div>
                 </li>
                 <li class="experience__item">
                     <div class="experience__item--header-container">
@@ -116,16 +132,26 @@
                             <p class="experience__item--company">РА «Index Art»</p>
                         </div>
                     </div>
-                    <p class="experience__item--duration">с января 2017 по октябрь 2017</p>
-                    <p class="experience__item--content">Мы делали SEO для разных сфер:</p>
-                    <ul class="experience__item--list">
-                        <li class="experience__item--item">типографии;</li>
-                        <li class="experience__item--item">обучающие центры;</li>
-                        <li class="experience__item--item">риелтерские агенства;</li>
-                        <li class="experience__item--item">строительные компании;</li>
-                        <li class="experience__item--item">доставка;</li>
-                        <li class="experience__item--item">производство биодобавок.</li>
-                    </ul>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p class="experience__item--duration">с января 2017 по октябрь 2017</p>
+                                <p class="experience__item--content">Мы делали SEO для разных сфер:</p>
+                                <ul class="experience__item--list">
+                                    <li class="experience__item--item">типографии;</li>
+                                    <li class="experience__item--item">обучающие центры;</li>
+                                    <li class="experience__item--item">риелтерские агенства;</li>
+                                    <li class="experience__item--item">строительные компании;</li>
+                                    <li class="experience__item--item">доставка;</li>
+                                    <li class="experience__item--item">производство биодобавок.</li>
+                                </ul>
+                            </div>
+                            <div class="swiper-slide">test</div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
                 </li>
                 <li class="experience__item">
                     <div class="experience__item--header-container">
@@ -155,6 +181,11 @@
                     </div>
                     <p class="experience__item--duration">с октября 2013 по сентябрь 2014</p>
                     <p class="experience__item--content">Я занималась разработкой мессенджера на подобии ICQ на С++.</p>
+                    <ul class="experience__item--list">
+                        <li class="experience__item--item">детально анализировала техническое задание;</li>
+                        <li class="experience__item--item">переписывала старые части кода;</li>
+                        <li class="experience__item--item">тестировала решение в связке с сервисом-получателем.</li>
+                    </ul>
                 </li>
             </ul>
         </section>
@@ -183,7 +214,8 @@
                 <li class="projects__item">
                     <a class="projects__item--link" href="https://test-security-2018.herokuapp.com" target="_blank">
                         <div class="projects__item--container">
-                            <img class="projects__item--ico projects__item--test-security-ico" src="img/test-security-ico.svg" alt="test-security-ico">
+                            <img class="projects__item--ico projects__item--test-security-ico" src="img/test-security-ico.png" alt="test-security-ico">
+                            <img class="projects__item--ico projects__item--test-security-ico-hover" src="img/test-security-ico-hover.png" alt="test-security-ico">
                         </div>
                         <div class="projects__item--description">
                             <h3 class="projects__item--header">Протестриуй безопасноть</h3>
@@ -195,7 +227,8 @@
                 <li class="projects__item">
                     <a class="projects__item--link" href="https://hardware.ideco.ru/" target="_blank">
                         <div class="projects__item--container">
-                            <img class="projects__item--ico projects__item--hardware-ico" src="img/hardware-ico.svg" alt="hardware-ico">
+                            <img class="projects__item--ico projects__item--hardware-ico" src="img/hardware-ico.png" alt="hardware-ico">
+                            <img class="projects__item--ico projects__item--hardware-ico-hover" src="img/hardware-ico-hover.png" alt="hardware-ico">
                         </div>
                         <div class="projects__item--description">
                             <h3 class="projects__item--header">Контроль трафика по твоим правилам</h3>
@@ -207,7 +240,8 @@
                 <li class="projects__item">
                     <a class="projects__item--link" href="https://salty-cliffs-43069.herokuapp.com/" target="_blank">
                     <div class="projects__item--container">
-                        <img class="projects__item--ico projects__item--music-player-ico" src="img/music-player-ico.svg" alt="music-player-ico">
+                        <img class="projects__item--ico projects__item--music-player-ico" src="img/music-player-ico.png" alt="music-player-ico">
+                        <img class="projects__item--ico projects__item--music-player-ico-hover" src="img/music-player-ico-hover.png" alt="music-player-ico">
                     </div>
                     <div class="projects__item--description">
                         <h3 class="projects__item--header">Составь плейлист любимых песен</h3>
@@ -219,7 +253,8 @@
                 <li class="projects__item">
                     <a class="projects__item--link" href="https://newyear.ideco.ru/" target="_blank">
                         <div class="projects__item--container">
-                            <img class="projects__item--ico projects__item--new-year-ico" src="img/new-year-ico.svg" alt="new-year-ico">
+                            <img class="projects__item--ico projects__item--new-year-ico" src="img/new-year-ico.png" alt="new-year-ico">
+                            <img class="projects__item--ico projects__item--new-year-ico-hover" src="img/new-year-ico-hover.png" alt="new-year-ico">
                         </div>
                         <div class="projects__item--description">
                             <h3 class="projects__item--header">Что было в 2017?</h3>
@@ -270,9 +305,12 @@
                 <a class="footer__social-item--link" target="_blank"
                    href="https://www.linkedin.com/in/anna-rusyaeva-6b1276148/">
                     <img class="footer__social-item--ico" src="img/social/linkedin-ico.svg" alt="linkedin-ico">
-                </a></li>
+                </a>
+            </li>
         </ul>
     </footer>
 </div>
+<script src="js/scripts.js"></script>
+<script src="js/swiper.min.js"></script>
 </body>
 </html>

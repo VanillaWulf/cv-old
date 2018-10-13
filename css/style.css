@@ -204,6 +204,7 @@ body {
     width: 70px;
     height: 70px;
 }
+
 /*.projects__item--test-security-ico {*/
     /*width: 70px;*/
     /*height: 70px;*/
@@ -223,6 +224,7 @@ body {
     /*width: 70px;*/
     /*height: 70px;*/
 /*}*/
+
 
 .footer__social-item {
     border-radius: 50% 50%;
@@ -409,6 +411,44 @@ body {
     box-shadow: 2px 3px 5px 0 rgba(0,0,0,0.25);
     box-sizing: border-box;
     background-color: #FFF;
+    position: relative;
+}
+
+.experience__item--switcher {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -40px;
+}
+
+.experience__item--arrow-next {
+    background-image: url('../img/next.png');
+    position: absolute;
+    height: 30px;
+    cursor: pointer;
+}
+
+.experience__item--switcher-button:hover,
+.experience__item--switcher-button:focus {
+    cursor: pointer;
+    outline-color: #FFF;
+}
+
+.experience__item--switcher-button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50% 50%;
+    border: 2px solid #64B5F6;
+    background-color: #FFF;
+}
+
+.experience__item--switcher-active {
+    background-color: #64B5F6;
+}
+
+.experience__item--card-1-1,
+.experience__item--card-1-2 {
+    display: none;
 }
 
 .experience__item:nth-of-type(2n-1) {
@@ -467,8 +507,6 @@ body {
     outline: none;
 }
 
-
-
 .certificates__item--diploma-image {
     display: block;
     margin: 0 auto 25px;
@@ -521,6 +559,35 @@ body {
 
 .projects__item--content {
     margin: 0;
+}
+
+.projects__item--hardware-ico-hover,
+.projects__item--test-security-ico-hover,
+.projects__item--music-player-ico-hover,
+.projects__item--new-year-ico-hover {
+    display: none;
+}
+
+.projects__item--link:hover .projects__item--hardware-ico-hover,
+.projects__item--link:focus .projects__item--hardware-ico-hover,
+.projects__item--link:hover .projects__item--test-security-ico-hover,
+.projects__item--link:focus .projects__item--test-security-ico-hover,
+.projects__item--link:hover .projects__item--music-player-ico-hover,
+.projects__item--link:focus .projects__item--music-player-ico-hover,
+.projects__item--link:hover .projects__item--new-year-ico-hover,
+.projects__item--link:focus .projects__item--new-year-ico-hover {
+    display: block;
+}
+
+.projects__item--link:hover .projects__item--hardware-ico,
+.projects__item--link:focus .projects__item--hardware-ico,
+.projects__item--link:hover .projects__item--test-security-ico,
+.projects__item--link:focus .projects__item--test-security-ico,
+.projects__item--link:hover .projects__item--music-player-ico,
+.projects__item--link:focus .projects__item--music-player-ico,
+.projects__item--link:hover .projects__item--new-year-ico,
+.projects__item--link:focus .projects__item--new-year-ico {
+    display: none;
 }
 
 .motivation {
@@ -897,6 +964,12 @@ body {
     .projects__item--content {
 
     }
+}
 
+.display-none {
+    display: none;
+}
 
+.display-block {
+    display: block;
 }
