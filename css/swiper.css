@@ -626,3 +626,16 @@ button.swiper-pagination-bullet {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 15px;
+    height: 25px;
+    background-size: 15px 25px;
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+}

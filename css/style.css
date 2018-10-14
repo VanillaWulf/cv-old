@@ -601,7 +601,6 @@ body {
 
     .experience__list {
         padding: 20px 40px 40px;
-        justify-content: center;
     }
 
 }
@@ -610,6 +609,7 @@ body {
     .experience__list {
         background-image: url('../img/experience-bkg-1024.png');
         background-position: -25px 35px;
+        justify-content: center;
     }
 
 }
@@ -843,10 +843,19 @@ body {
 
     .experience__item {
         width: 280px;
-        padding: 10px 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+
+    .experience__item--header-container {
+        padding: 10px 10px 0;
+    }
+
+    .experience__item--content-container {
+        padding: 0 25px 10px;
+        height: 180px;
     }
 
     .experience__item--header-container {
@@ -921,30 +930,13 @@ body {
         height: 30px;
     }
 
-
-    /*.projects__item--container {*/
-        /*width: 40px;*/
-    /*}*/
-
-    /*.projects__item--description {*/
-        /*width: 220px;*/
-    /*}*/
-
-    /*.projects__item--ico {*/
-        /*width: 30px;*/
-        /*height: 30px;*/
-    /*}*/
-
     .projects__item--header {
         margin: 0 0 3px;
     }
 
-    .projects__item--content {
-
-    }
 
     .swiper-container {
-        width: 600px;
-        height: 300px;
+        width: 280px;
+        height: 150px;
     }
 }
