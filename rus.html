@@ -5,7 +5,7 @@
     <title>CV</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
@@ -88,25 +88,35 @@
                             <p class="experience__item--company">Банк «Точка»</p>
                         </div>
                     </div>
-                    <div claass="experience__item--container">
-                    <div class="experience__item--container experience__item--card-1-1 display-block">
-                    <p class="experience__item--duration">с июля 2018 по настоящее время</p>
-                        <p class="experience__item--content">Я разрабатваю и поддерживаю front-end для CRM:</p>
-                        <ul class="experience__item--list">
-                            <li class="experience__item--item">пишу новые компоненты на Angular;</li>
-                            <li class="experience__item--item">верстаю новые страницы;</li>
-                            <li class="experience__item--item">переписываю старые компоненты;</li>
-                            <li class="experience__item--item">поддерживаю систему.</li>
-                        </ul>
-                    </div>
-                    <div class="experience__item--container experience__item--card-1-2">
-                        <p class="experience__item--duration">Достижения</p>
-                        <p class="experience__item--content">content</p>
-                    </div>
-                    <div class="experience__item--switcher">
-                        <button class="experience__item--switcher-button experience__item--switcher-active" id="experience__item--switcher-1-1"></button>
-                        <button class="experience__item--switcher-button" id="experience__item--switcher-1-2"></button>
-                    </div>
+                    <div class="swiper-container swiper-1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="experience__item--content-container">
+                                    <p class="experience__item--duration">с июля 2018 по настоящее время</p>
+                                    <p class="experience__item--content">Я разрабатваю и поддерживаю front-end для CRM:</p>
+                                    <ul class="experience__item--list">
+                                        <li class="experience__item--item">пишу новые компоненты на Angular;</li>
+                                        <li class="experience__item--item">верстаю новые страницы;</li>
+                                        <li class="experience__item--item">переписываю старые компоненты;</li>
+                                        <li class="experience__item--item">поддерживаю систему.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="experience__item--content-container">
+                                    <p class="experience__item--duration">Достижения</p>
+                                    <p class="experience__item--content">content</p>
+                                    <ul class="experience__item--list">
+                                        <li class="experience__item--item">достижение - 1</li>
+                                        <li class="experience__item--item">достижение - 2</li>
+                                        <li class="experience__item--item">достижение - 3</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
                 </li>
                 <li class="experience__item">
@@ -117,15 +127,37 @@
                             <p class="experience__item--company">Ideco</p>
                         </div>
                     </div>
-                    <p class="experience__item--duration">с октября 2017 по июль 2018</p>
-                    <p class="experience__item--content">Моей основной задачей было получение качественных лидов. Для этого я:</p>
-                    <ul class="experience__item--list">
-                        <li class="experience__item--item">делала хороший <a class="experience__item--link"
-                                                                             href="https://github.com/VanillaWulf/marketing" target="_blank">POSM</a>;</li>
-                        <li class="experience__item--item">реализовывала проекты;</li>
-                        <li class="experience__item--item">разрабатывала и планировала стратегии по привлечению клиентов;</li>
-                        <li class="experience__item--item">организовывала рассылки.</li>
-                    </ul>
+                    <div class="swiper-container swiper-2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="experience__item--content-container">
+                                    <p class="experience__item--duration">с октября 2017 по июль 2018</p>
+                                    <p class="experience__item--content">Моей основной задачей было получение качественных лидов. Для этого я:</p>
+                                    <ul class="experience__item--list">
+                                        <li class="experience__item--item">делала хороший <a class="experience__item--link"
+                                                                                             href="https://github.com/VanillaWulf/marketing" target="_blank">POSM</a>;</li>
+                                        <li class="experience__item--item">реализовывала проекты;</li>
+                                        <li class="experience__item--item">разрабатывала и планировала стратегии по привлечению клиентов;</li>
+                                        <li class="experience__item--item">организовывала рассылки.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="experience__item--content-container">
+                                    <p class="experience__item--duration">Достижения</p>
+                                    <p class="experience__item--content">content</p>
+                                    <ul class="experience__item--list">
+                                        <li class="experience__item--item">достижение - 1</li>
+                                        <li class="experience__item--item">достижение - 2</li>
+                                        <li class="experience__item--item">достижение - 3</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
                 </li>
                 <li class="experience__item">
                     <div class="experience__item--header-container">
@@ -135,22 +167,32 @@
                             <p class="experience__item--company">РА «Index Art»</p>
                         </div>
                     </div>
-                    <div class="swiper-container swiper-1">
+                    <div class="swiper-container swiper-3">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <p class="experience__item--duration">с января 2017 по октябрь 2017</p>
-                                <p class="experience__item--content">Мы делали SEO для разных сфер:</p>
-                                <ul class="experience__item--list">
-                                    <li class="experience__item--item">типографии;</li>
-                                    <li class="experience__item--item">обучающие центры;</li>
-                                    <li class="experience__item--item">риелтерские агенства;</li>
-                                    <li class="experience__item--item">строительные компании;</li>
-                                    <li class="experience__item--item">доставка;</li>
-                                    <li class="experience__item--item">производство биодобавок.</li>
-                                </ul>
+                                <div class="experience__item--content-container">
+                                    <p class="experience__item--duration">с января 2017 по октябрь 2017</p>
+                                    <p class="experience__item--content">Мы делали SEO для разных сфер:</p>
+                                    <ul class="experience__item--list">
+                                        <li class="experience__item--item">типографии;</li>
+                                        <li class="experience__item--item">обучающие центры;</li>
+                                        <li class="experience__item--item">риелтерские агенства;</li>
+                                        <li class="experience__item--item">строительные компании;</li>
+                                        <li class="experience__item--item">доставка;</li>
+                                        <li class="experience__item--item">производство биодобавок.</li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="swiper-slide">
-                                test
+                                <div class="experience__item--content-container">
+                                    <p class="experience__item--duration">Достижения</p>
+                                    <p class="experience__item--content">content</p>
+                                    <ul class="experience__item--list">
+                                        <li class="experience__item--item">достижение - 1</li>
+                                        <li class="experience__item--item">достижение - 2</li>
+                                        <li class="experience__item--item">достижение - 3</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
@@ -166,24 +208,34 @@
                             <p class="experience__item--company">РА «ManyLetters»</p>
                         </div>
                     </div>
-                    <div class="swiper-container swiper-2">
+                    <div class="swiper-container swiper-4">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <p class="experience__item--duration">с декабря 2015 по сентябрь 2016</p>
-                                <p class="experience__item--content">Мы делали SEO, контекст и SMM для сфер:</p>
-                                <ul class="experience__item--list">
-                                    <li class="experience__item--item">ремонт и продажа машин;</li>
-                                    <li class="experience__item--item">развлечения;</li>
-                                    <li class="experience__item--item">продажа туриститического снаряжения;</li>
-                                    <li class="experience__item--item">кафе и рестараны;</li>
-                                    <li class="experience__item--item">строительные материалы.</li>
-                                </ul>
+                                <div class="experience__item--content-container">
+                                    <p class="experience__item--duration">с декабря 2015 по сентябрь 2016</p>
+                                    <p class="experience__item--content">Мы делали SEO, контекст и SMM для сфер:</p>
+                                    <ul class="experience__item--list">
+                                        <li class="experience__item--item">ремонт и продажа машин;</li>
+                                        <li class="experience__item--item">развлечения;</li>
+                                        <li class="experience__item--item">продажа туриститического снаряжения;</li>
+                                        <li class="experience__item--item">кафе и рестараны;</li>
+                                        <li class="experience__item--item">строительные материалы.</li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="swiper-slide">
-                                content
+                                <div class="experience__item--content-container">
+                                    <p class="experience__item--duration">Достижения</p>
+                                    <p class="experience__item--content">content</p>
+                                    <ul class="experience__item--list">
+                                        <li class="experience__item--item">достижение - 1</li>
+                                        <li class="experience__item--item">достижение - 2</li>
+                                        <li class="experience__item--item">достижение - 3</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <div class="swiper-pagination-2"></div>
+                        <div class="swiper-pagination"></div>
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
                     </div>
@@ -196,13 +248,35 @@
                             <p class="experience__item--company">ОКБ</p>
                         </div>
                     </div>
-                    <p class="experience__item--duration">с октября 2013 по сентябрь 2014</p>
-                    <p class="experience__item--content">Я занималась разработкой мессенджера на подобии ICQ на С++.</p>
-                    <ul class="experience__item--list">
-                        <li class="experience__item--item">детально анализировала техническое задание;</li>
-                        <li class="experience__item--item">переписывала старые части кода;</li>
-                        <li class="experience__item--item">тестировала решение в связке с сервисом-получателем.</li>
-                    </ul>
+                    <div class="swiper-container swiper-5">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="experience__item--content-container">
+                                    <p class="experience__item--duration">с октября 2013 по сентябрь 2014</p>
+                                    <p class="experience__item--content">Я занималась разработкой мессенджера на подобии ICQ на С++.</p>
+                                    <ul class="experience__item--list">
+                                        <li class="experience__item--item">детально анализировала техническое задание;</li>
+                                        <li class="experience__item--item">переписывала старые части кода;</li>
+                                        <li class="experience__item--item">тестировала решение в связке с сервисом-получателем.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="experience__item--content-container">
+                                    <p class="experience__item--duration">Достижения</p>
+                                    <p class="experience__item--content">content</p>
+                                    <ul class="experience__item--list">
+                                        <li class="experience__item--item">достижение - 1</li>
+                                        <li class="experience__item--item">достижение - 2</li>
+                                        <li class="experience__item--item">достижение - 3</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
                 </li>
             </ul>
         </section>
@@ -329,22 +403,5 @@
 </div>
 <script src="js/scripts.js"></script>
 <script src="js/swiper.min.js"></script>
-
-<script>
-    // var swiper = new Swiper('.swiper-container', {
-    //     navigation: {
-    //         nextEl: '.swiper-button-next',
-    //         prevEl: '.swiper-button-prev',
-    //     },
-    // });
-
-    let swiper1 = new Swiper('.swiper-container', {
-        pagination:'.swiper-pagination',
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-</script>
 </body>
 </html>
