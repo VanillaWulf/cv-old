@@ -1,0 +1,41 @@
+.motivation {
+    padding: 0 10%;
+    margin: 0 0 50px;
+}
+
+.motivation--container {
+    padding: 25px 35px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 4px 4px;
+    box-shadow: 2px 3px 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.motivation__content {
+    margin: 15px 0 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .motivation {
+        padding: 0 40px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .motivation {
+        margin: 0 0 30px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .motivation {
+        padding: 0 10px;
+        margin: 0 0 30px;
+    }
+
+}

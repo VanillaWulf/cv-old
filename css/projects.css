@@ -1,0 +1,191 @@
+.projects__list {
+    list-style: none;
+}
+
+.projects__item--header {
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.projects__item--header {
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.projects__item--link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.projects__item--link:active {
+    opacity: 0.2;
+}
+
+.projects__item--ico {
+    width: 70px;
+    height: 70px;
+}
+
+.projects {
+    padding: 0 10%;
+}
+.projects__item--link:hover,
+.projects__item--link:focus {
+    box-shadow: 2px 3px 5px 4px rgba(0,0,0,0.25);
+    outline: none;
+}
+
+.projects__list {
+    padding: 20px 0 0;
+    margin: 0 0 50px;
+}
+
+.projects__item--link {
+    width: 650px;
+    margin: 0 auto 20px;
+    padding: 20px 10px;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 20px 20px;
+    box-sizing: border-box;
+}
+
+.projects__item--container{
+    width: 160px;
+    display: flex;
+}
+
+.projects__item--description {
+    width: 450px;
+}
+
+.projects__item--ico {
+    display: block;
+    margin: auto;
+}
+
+.projects__item--header {
+    display: block;
+    margin: 0 0 10px;
+}
+
+.projects__item--content {
+    margin: 0;
+}
+
+.projects__item--hardware-ico-hover,
+.projects__item--test-security-ico-hover,
+.projects__item--music-player-ico-hover,
+.projects__item--new-year-ico-hover {
+    display: none;
+}
+
+.projects__item--link:hover .projects__item--hardware-ico-hover,
+.projects__item--link:focus .projects__item--hardware-ico-hover,
+.projects__item--link:hover .projects__item--test-security-ico-hover,
+.projects__item--link:focus .projects__item--test-security-ico-hover,
+.projects__item--link:hover .projects__item--music-player-ico-hover,
+.projects__item--link:focus .projects__item--music-player-ico-hover,
+.projects__item--link:hover .projects__item--new-year-ico-hover,
+.projects__item--link:focus .projects__item--new-year-ico-hover {
+    display: block;
+}
+
+.projects__item--link:hover .projects__item--hardware-ico,
+.projects__item--link:focus .projects__item--hardware-ico,
+.projects__item--link:hover .projects__item--test-security-ico,
+.projects__item--link:focus .projects__item--test-security-ico,
+.projects__item--link:hover .projects__item--music-player-ico,
+.projects__item--link:focus .projects__item--music-player-ico,
+.projects__item--link:hover .projects__item--new-year-ico,
+.projects__item--link:focus .projects__item--new-year-ico {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .projects {
+        padding: 0 40px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .projects__list {
+        margin: 0 0 30px;
+    }
+
+    .projects__item--ico {
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+
+    .projects__item--header {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .projects__item--header {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .projects__item--content {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .projects__item--link {
+        width: 470px;
+    }
+
+    .projects__item--ico {
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .projects__item--header {
+        font-size: 15px;
+    }
+
+    .projects__item--content {
+        font-size: inherit;
+    }
+
+    .projects {
+        margin: 0 0 30px;
+        padding: 0 10px;
+    }
+    .projects__item--link {
+        width: 280px;
+        padding: 10px 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects__item--container {
+        margin: 0 0 5px;
+    }
+
+    .projects__item--description {
+        width: 100%;
+        text-align: center;
+    }
+
+    .projects__item--header {
+        text-align: center;
+    }
+
+    .projects__item--header {
+        margin: 0 0 3px;
+    }
+
+}

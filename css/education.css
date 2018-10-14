@@ -1,0 +1,26 @@
+.education__content {
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+.education {
+    margin: 0 0 50px;
+    padding: 0 10%;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .education {
+        padding: 0 40px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .education {
+        margin: 0 0 30px;
+        padding: 0 10px;
+    }
+
+}
