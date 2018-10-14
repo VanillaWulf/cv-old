@@ -322,20 +322,24 @@ body {
 .skills--list {
     padding: 0;
     margin: 20px 0 0;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.skills-item--col-1 {
-    width: 320px;
+.skills--item {
+    width: 20%;
 }
 
-.skills-item--col-2 {
-    width: 315px;
-}
+/*.skills-item--col-1 {*/
+    /*width: 320px;*/
+/*}*/
 
-.skills-item--col-3 {
-    width: 195px;
-}
+/*.skills-item--col-2 {*/
+    /*width: 315px;*/
+/*}*/
+
+/*.skills-item--col-3 {*/
+    /*width: 195px;*/
+/*}*/
 
 .skills-item__detail-list {
     padding: 0 0 0 20px;
@@ -350,12 +354,16 @@ body {
     margin: 0 0 20px 20px;
 }
 
-.skills-item__image--helm-ico {
-    margin: 0 0 20px 100px;
-}
+/*.skills-item__image--helm-ico {*/
+    /*margin: 0 0 20px 100px;*/
+/*}*/
 
 .skills-item__header {
     margin: 0 0 10px;
+}
+
+.skills--item__header-col2 {
+    text-align: center;
 }
 
 .education {
@@ -622,6 +630,14 @@ body {
         align-items: center;
     }
 
+    .skills-item__detail-list {
+        padding: 0 0 0 40px;
+    }
+
+    .skills-item--detail-list-col-3 {
+        padding: 0 0 0 30px;
+    }
+
     .skills-item {
         margin: 0 0 30px;
     }
@@ -699,14 +715,6 @@ body {
     .header {
         padding: 20px 20px;
     }
-
-    .skills-item__detail-list {
-        padding: 0 0 0 70px;
-    }
-
-    /*.skills {*/
-        /*margin: 0 0 20px;*/
-    /*}*/
 
     .experience__item {
         height: 350px;
@@ -933,7 +941,6 @@ body {
     .projects__item--header {
         margin: 0 0 3px;
     }
-
 
     .swiper-container {
         width: 280px;
