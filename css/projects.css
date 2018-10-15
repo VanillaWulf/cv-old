@@ -124,10 +124,11 @@
 
 @media screen and (max-width: 730px) {
 
-    .projects__item--header {
-        font-size: 18px;
-        line-height: 23px;
-    }
+    /*.projects__item--header {*/
+        /*font-size: 18px;*/
+        /*line-height: 23px;*/
+    /*}*/
+
     .projects__item--header {
         font-size: 16px;
         line-height: 23px;
