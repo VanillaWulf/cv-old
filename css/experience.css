@@ -205,13 +205,17 @@
         align-items: center;
     }
 
+    .experience__item:first-of-type {
+        height: 400px;
+    }
+
     .experience__item--header-container {
         padding: 10px 10px 0;
     }
 
     .experience__item--content-container {
-        padding: 0 30px 10px;
-        height: 180px;
+        padding: 0 30px;
+        height: 200px;
     }
 
     .experience__item--header-container {
