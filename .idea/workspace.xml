@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b23500db-3c47-4d15-9b69-2905c13462ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/experience.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rus.html" beforeDir="false" afterPath="$PROJECT_DIR$/rus.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +15,8 @@
     <session id="1083872078">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="7" />
           <entry key="project.open.time.11" value="1" />
@@ -29,7 +27,7 @@
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,7 +53,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="7553" />
-          <entry key="html" value="9815" />
+          <entry key="html" value="9839" />
           <entry key="js" value="521" />
           <entry key="php" value="1" />
         </counts>
@@ -63,7 +61,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="7553" />
-          <entry key="HTML" value="9815" />
+          <entry key="HTML" value="9839" />
           <entry key="JavaScript" value="521" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
@@ -81,19 +79,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="348" column="86" selection-start-line="348" selection-start-column="86" selection-end-line="348" selection-end-column="86" />
+            <state relative-caret-position="380">
+              <caret line="334" column="82" selection-start-line="334" selection-start-column="82" selection-end-line="334" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
+            <state relative-caret-position="512">
               <caret line="346" column="85" selection-start-line="346" selection-start-column="85" selection-end-line="346" selection-end-column="85" />
             </state>
           </provider>
@@ -102,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/experience.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="3810">
               <caret line="254" column="24" selection-start-line="254" selection-start-column="24" selection-end-line="254" selection-end-column="24" />
             </state>
           </provider>
@@ -177,8 +175,8 @@
         <option value="$PROJECT_DIR$/css/education.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/experience.css" />
-        <option value="$PROJECT_DIR$/rus.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/rus.html" />
       </list>
     </option>
   </component>
@@ -199,9 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,6 +218,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,12 +295,13 @@
       <workItem from="1539669443340" duration="21000" />
       <workItem from="1539697835502" duration="6440000" />
       <workItem from="1539756057628" duration="798000" />
-      <workItem from="1539784576171" duration="1469000" />
+      <workItem from="1539784576171" duration="1720000" />
+      <workItem from="1539796088638" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106643000" />
+    <option name="totallyTimeSpent" value="106929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -482,22 +481,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/experience.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="3810">
           <caret line="254" column="24" selection-start-line="254" selection-start-column="24" selection-end-line="254" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="348" column="86" selection-start-line="348" selection-start-column="86" selection-end-line="348" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
+        <state relative-caret-position="512">
           <caret line="346" column="85" selection-start-line="346" selection-start-column="85" selection-end-line="346" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="334" column="82" selection-start-line="334" selection-start-column="82" selection-end-line="334" selection-end-column="82" />
         </state>
       </provider>
     </entry>
