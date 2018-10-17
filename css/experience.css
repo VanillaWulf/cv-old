@@ -135,6 +135,10 @@
     padding: 0 0 0 20px;
 }
 
+.experience__item--mobile {
+    display: none;
+}
+
 @media screen and (max-width: 1300px) {
 
     .experience__list {
@@ -245,6 +249,14 @@
         width: 100%;
         margin: 0 0 7px;
         text-align: center;
+    }
+
+    .experience__item--mobile {
+        display: inline;
+    }
+
+    .experience__item--desktop {
+        display: none;
     }
 
 }
