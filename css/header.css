@@ -52,10 +52,14 @@
 }
 
 .header {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+}
+
+.header__container {
     padding: 20px 10%;
     display: flex;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
-    margin: 0 0 25px;
+    margin: 0 auto 25px;
+    max-width: 1600px;
 }
 
 .header__info,
@@ -89,7 +93,7 @@
 }
 
 .header__contacts--content {
-    margin: 0 0 10px;
+    margin: 0 0 15px;
 }
 
 .header__contacts--download {
@@ -112,7 +116,7 @@
 
 @media screen and (max-width: 1300px) {
 
-    .header {
+    .header__container {
         padding: 43px 40px;
     }
 
@@ -120,7 +124,7 @@
 
 @media screen and (max-width: 1120px) {
 
-    .header {
+    .header__container {
         padding: 20px 40px;
     }
 
@@ -133,7 +137,7 @@
         line-height: 23px;
     }
 
-    .header {
+    .header__container {
         padding: 20px 20px;
     }
 
@@ -148,8 +152,9 @@
         line-height: 18px;
     }
 
-    .header {
-        margin: 0 0 15px;
+    .header__container {
+        width: 300px;
+        margin: 0 auto 15px;
         padding: 10px 10px;
     }
 

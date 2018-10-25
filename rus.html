@@ -13,33 +13,36 @@
 <body>
 <div class="container">
     <header class="header">
-        <div class="header__info">
-            <img class="header__info--photo">
-            <div class="header__info--container">
-                <p class="header__info--content">Анна Русяева</p>
-                <ul class="header__info--lang-list">
-                    <li class="header__info--lang-item"><a class="header__contacts--link" href="index.html">
-                        <img class="header__info--lang-ico" src="img/eng-flag.svg" alt="eng-flag">
-                    </a></li>
-                    <li class="header__info--lang-item"><a class="header__contacts--link" href="rus.html">
-                        <img class="header__info--lang-ico header__info--selected" src="img/rus-flag.svg" alt="rus-flag">
-                    </a></li>
-                </ul>
+        <div class="header__container">
+            <div class="header__info">
+                <img class="header__info--photo">
+                <div class="header__info--container">
+                    <p class="header__info--content">Анна Русяева</p>
+                    <ul class="header__info--lang-list">
+                        <li class="header__info--lang-item"><a class="header__contacts--link" href="index.html">
+                            <img class="header__info--lang-ico" src="img/eng-flag.svg" alt="eng-flag">
+                        </a></li>
+                        <li class="header__info--lang-item"><a class="header__contacts--link" href="rus.html">
+                            <img class="header__info--lang-ico header__info--selected" src="img/rus-flag.svg" alt="rus-flag">
+                        </a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="header__contacts">
-            <p class="header__contacts--name">Анна Русяева</p>
-            <p class="header__contacts--content"><span class="header__contacts--title">Телефон: </span><a class="header__contacts--link" href="tel:89221596030">+7-(922)-159-60-30</a></p>
-            <p class="header__contacts--content"><span class="header__contacts--title">Telegram: </span><a class="header__contacts--link" href="https://tlgg.ru/vanillawulf" target="_blank">@VanillaWulf</a></p>
-            <a href="download/resume.docx" target="_blank"><button class="header__contacts--download rus-cv">Загрузить деловое резюме</button></a>
+            <div class="header__contacts">
+                <p class="header__contacts--name">Анна Русяева</p>
+                <p class="header__contacts--content"><span class="header__contacts--title">Телефон: </span><a class="header__contacts--link" href="tel:89221596030">+7-(922)-159-60-30</a></p>
+                <p class="header__contacts--content"><span class="header__contacts--title">Telegram: </span><a class="header__contacts--link" href="https://tlgg.ru/vanillawulf" target="_blank">@VanillaWulf</a></p>
+                <a href="download/resume.docx" target="_blank"><button class="header__contacts--download rus-cv">Загрузить деловое резюме</button></a>
+            </div>
         </div>
     </header>
 
     <main class="main">
         <section class="skills">
+            <div class="skills__container">
             <h2 class="section-header">Мои навыки</h2>
             <ul class="skills--list">
-                <li class="skills-item">
+                <li class="skills-item skills--item__col-1">
                     <img class="skills-item__image skills-item__image--bar-chart-ico" src="./img/skills/bar-chart-ico.svg" alt="bar-chart-ico">
                     <h3 class="skills-item__header">Маркетинг</h3>
                     <ul class="skills-item__detail-list">
@@ -49,7 +52,7 @@
                         <li class="skills-item__detail-item">лидогенерация.</li>
                     </ul>
                 </li>
-                <li class="skills-item">
+                <li class="skills-item skills--item__col-2">
                     <img class="skills-item__image skills-item__image--helm-ico" src="./img/skills/helm-ico.svg" alt="helm-ico">
                     <h3 class="skills-item__header skills--item__header-col2">Управление проектами</h3>
                     <ul class="skills-item__detail-list">
@@ -59,7 +62,7 @@
                         <li class="skills-item__detail-item">контроль выполенния задач.</li>
                     </ul>
                 </li>
-                <li class="skills-item">
+                <li class="skills-item skills--item__col-3">
                     <img class="skills-item__image skills-item__image--coding-ico" src="./img/skills/coding-ico.svg" alt=coding-ico">
                     <h3 class="skills-item__header">Web-developing</h3>
                     <ul class="skills-item__detail-list skills-item--detail-list-col-3">
@@ -70,6 +73,7 @@
                     </ul>
                 </li>
             </ul>
+            </div>
         </section>
 
         <section class="education">

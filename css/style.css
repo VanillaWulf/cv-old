@@ -24,10 +24,10 @@ body {
     margin: -1px;
 }
 
-.container {
-    max-width: 1600px;
-    margin: auto;
-}
+/*.container {*/
+    /*max-width: 1600px;*/
+    /*margin: auto;*/
+/*}*/
 
 .section-header {
     font-size: 36px;
