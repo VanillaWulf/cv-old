@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b23500db-3c47-4d15-9b69-2905c13462ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/experience.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/motivation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/motivation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/skills.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/swiper.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/swiper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rus.html" beforeDir="false" afterPath="$PROJECT_DIR$/rus.html" afterDir="false" />
-    </list>
+    <list default="true" id="b23500db-3c47-4d15-9b69-2905c13462ef" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,8 +134,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="340" column="62" lean-forward="true" selection-start-line="340" selection-start-column="62" selection-end-line="340" selection-end-column="103" />
+                <state relative-caret-position="215">
+                  <caret line="333" column="17" selection-start-line="333" selection-start-column="17" selection-end-line="333" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -290,7 +282,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540647568024" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540647576426" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -369,12 +361,12 @@
       <workItem from="1540361016120" duration="36000" />
       <workItem from="1540482022097" duration="2944000" />
       <workItem from="1540534020802" duration="774000" />
-      <workItem from="1540629065936" duration="3248000" />
+      <workItem from="1540629065936" duration="3448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118511000" />
+    <option name="totallyTimeSpent" value="118711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -560,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="340" column="62" lean-forward="true" selection-start-line="340" selection-start-column="62" selection-end-line="340" selection-end-column="103" />
+        <state relative-caret-position="215">
+          <caret line="333" column="17" selection-start-line="333" selection-start-column="17" selection-end-line="333" selection-end-column="17" />
         </state>
       </provider>
     </entry>
