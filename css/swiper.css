@@ -630,9 +630,9 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 550px) {
   .swiper-button-prev,
   .swiper-button-next {
-    width: 15px;
-    height: 25px;
-    background-size: 15px 25px;
+    width: 12px;
+    height: 20px;
+    background-size: 12px 20px;
   }
 
   .swiper-pagination {
