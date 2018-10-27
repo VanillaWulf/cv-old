@@ -56,12 +56,16 @@
 }
 
 .experience {
-    margin: 0 0 40px;
+    background-color: #F9F9F9;
+}
+
+.experience__container {
+    max-width: 1600px;
+    margin: 0 auto 40px;
     padding: 20px 0 0;
     justify-content: space-between;
-    background-color: #F9F9F9;
     background-image: url('../img/experience-bkg-1440.png');
-    background-position: 0px 113px;
+    background-position: 0 37%;
 }
 
 .experience__list {
@@ -149,7 +153,7 @@
 
 @media screen and (max-width: 1140px) {
 
-    .experience {
+    .experience__container {
         background-image: url('../img/experience-bkg-1024.png');
         background-position: 0px 150px;
     }
@@ -197,7 +201,7 @@
         line-height: 18px;
     }
 
-    .experience {
+    .experience__container {
         margin: 0 0 30px;
         padding: 15px 10px 0;
     }

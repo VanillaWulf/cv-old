@@ -1,6 +1,7 @@
 .motivation {
+    max-width: 1600px;
     padding: 0 10%;
-    margin: 0 0 50px;
+    margin: 0 auto 50px;
 }
 
 .motivation__container {
