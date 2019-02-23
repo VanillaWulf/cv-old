@@ -1,416 +1,793 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Hi, friend!</title>
-    <meta name="description" content="Enjoy this page.">
-    <link href="css/normalize.min.css" rel="stylesheet">
-    <link href="css/style.min.css" rel="stylesheet">
-    <link id="page_favicon" href="./img/favicon-ar-32x32.png" rel="icon" type="image/x-icon">
+    <meta name="description" content="Enjoy this page." />
+    <link href="css/normalize.min.css" rel="stylesheet" />
+    <link href="css/style.min.css" rel="stylesheet" />
+    <link
+      id="page_favicon"
+      href="./img/favicon-ar-32x32.png"
+      rel="icon"
+      type="image/x-icon"
+    />
     <script src="js/jquery-ui.min.js"></script>
-</head>
-<body>
-    <div class="container">
-    <header class="header">
-        <div class="header__container">
-            <div class="header__info">
-                <img class="header__info--photo" src="./img/photo.jpg" alt="photo">
-                <div class="header__info--container">
-                    <p class="header__info--content">Anna Rusyayeva</p>
-                    <ul class="header__info--lang-list">
-                        <li class="header__info--lang-item"><a class="header__contacts--link" href="index.html">
-                            <img class="header__info--lang-ico header__info--selected" src="img/eng-flag.svg" alt="eng-flag">
-                        </a></li>
-                        <li class="header__info--lang-item"><a class="header__contacts--link" href="rus.html">
-                            <img class="header__info--lang-ico" src="img/rus-flag.svg" alt="rus-flag">
-                        </a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="header__contacts">
-                <p class="header__contacts--name">Anna Rusyayeva</p>
-                <p class="header__contacts--content"><span class="header__contacts--title">Telephone: </span><a class="header__contacts--link" href="tel:89221596030">+7-(922)-159-60-30</a></p>
-                <p class="header__contacts--content"><span class="header__contacts--title">Telegram: </span><a class="header__contacts--link" href="https://tlgg.ru/vanillawulf" target="_blank">@VanillaWulf</a></p>
-                <a href="download/CV.pdf" target="_blank"><button class="header__contacts--download rus-cv">Download CV</button></a>
-            </div>
-        </div>
-    </header>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function(m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function() {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
 
-    <main class="main">
-        <section class="skills">
-            <div class="skills__container">
-                <h2 class="section-header">My Skills</h2>
-                <ul class="skills--list">
-                    <li class="skills-item skills--item__col-1">
-                        <img class="skills-item__image skills-item__image--bar-chart-ico" src="./img/skills/bar-chart-ico.svg" alt="bar-chart-ico">
-                        <h3 class="skills-item__header">Marketing</h3>
-                        <ul class="skills-item__detail-list">
-                            <li class="skills-item__detail-item">POSM</li>
-                            <li class="skills-item__detail-item">SEO</li>
-                            <li class="skills-item__detail-item">Google Analytics</li>
-                            <li class="skills-item__detail-item">Google Adwords</li>
-                            <li class="skills-item__detail-item">Lead generation</li>
-                        </ul>
-                    </li>
-                    <li class="skills-item skills--item__col-2">
-                        <img class="skills-item__image skills-item__image--helm-ico" src="./img/skills/helm-ico.svg" alt="helm-ico">
-                        <h3 class="skills-item__header skills--item__header-col2">Managing Projects</h3>
-                        <ul class="skills-item__detail-list">
-                            <li class="skills-item__detail-item">Design the structures of apps</li>
-                            <li class="skills-item__detail-item">Writing technical specifications</li>
-                            <li class="skills-item__detail-item">Process planning</li>
-                            <li class="skills-item__detail-item">Manage tasks(scrum, kanban, scrumban)</li>
-                        </ul>
-                    </li>
-                    <li class="skills-item skills--item__col-3">
-                        <img class="skills-item__image skills-item__image--coding-ico" src="./img/skills/coding-ico.svg" alt="coding-ico">
-                        <h3 class="skills-item__header">Web-developing</h3>
-                        <ul class="skills-item__detail-list">
-                            <li class="skills-item__detail-item">HTML5</li>
-                            <li class="skills-item__detail-item">CSS</li>
-                            <li class="skills-item__detail-item">JS, typescript</li>
-                            <li class="skills-item__detail-item">React, Angular</li>
-                        </ul>
-                    </li>
-                </ul>
+      ym(52514227, "init", {
+        id: 52514227,
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/52514227"
+          style="position:absolute; left:-9999px;"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__info">
+            <img
+              class="header__info--photo"
+              src="./img/photo.jpg"
+              alt="photo"
+            />
+            <div class="header__info--container">
+              <p class="header__info--content">Anna Rusyayeva</p>
+              <ul class="header__info--lang-list">
+                <li class="header__info--lang-item">
+                  <a class="header__contacts--link" href="index.html">
+                    <img
+                      class="header__info--lang-ico header__info--selected"
+                      src="img/eng-flag.svg"
+                      alt="eng-flag"
+                    />
+                  </a>
+                </li>
+                <li class="header__info--lang-item">
+                  <a class="header__contacts--link" href="rus.html">
+                    <img
+                      class="header__info--lang-ico"
+                      src="img/rus-flag.svg"
+                      alt="rus-flag"
+                    />
+                  </a>
+                </li>
+              </ul>
             </div>
+          </div>
+          <div class="header__contacts">
+            <p class="header__contacts--name">Anna Rusyayeva</p>
+            <p class="header__contacts--content">
+              <span class="header__contacts--title">Telephone: </span
+              ><a class="header__contacts--link" href="tel:89221596030"
+                >+7-(922)-159-60-30</a
+              >
+            </p>
+            <p class="header__contacts--content">
+              <span class="header__contacts--title">Telegram: </span
+              ><a
+                class="header__contacts--link"
+                href="https://tlgg.ru/vanillawulf"
+                target="_blank"
+                >@VanillaWulf</a
+              >
+            </p>
+            <a href="download/CV.pdf" target="_blank"
+              ><button class="header__contacts--download rus-cv">
+                Download CV
+              </button></a
+            >
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="skills">
+          <div class="skills__container">
+            <h2 class="section-header">My Skills</h2>
+            <ul class="skills--list">
+              <li class="skills-item skills--item__col-1">
+                <img
+                  class="skills-item__image skills-item__image--bar-chart-ico"
+                  src="./img/skills/bar-chart-ico.svg"
+                  alt="bar-chart-ico"
+                />
+                <h3 class="skills-item__header">Marketing</h3>
+                <ul class="skills-item__detail-list">
+                  <li class="skills-item__detail-item">POSM</li>
+                  <li class="skills-item__detail-item">SEO</li>
+                  <li class="skills-item__detail-item">Google Analytics</li>
+                  <li class="skills-item__detail-item">Google Adwords</li>
+                  <li class="skills-item__detail-item">Lead generation</li>
+                </ul>
+              </li>
+              <li class="skills-item skills--item__col-2">
+                <img
+                  class="skills-item__image skills-item__image--helm-ico"
+                  src="./img/skills/helm-ico.svg"
+                  alt="helm-ico"
+                />
+                <h3 class="skills-item__header skills--item__header-col2">
+                  Managing Projects
+                </h3>
+                <ul class="skills-item__detail-list">
+                  <li class="skills-item__detail-item">
+                    Design the structures of apps
+                  </li>
+                  <li class="skills-item__detail-item">
+                    Writing technical specifications
+                  </li>
+                  <li class="skills-item__detail-item">Process planning</li>
+                  <li class="skills-item__detail-item">
+                    Manage tasks(scrum, kanban, scrumban)
+                  </li>
+                </ul>
+              </li>
+              <li class="skills-item skills--item__col-3">
+                <img
+                  class="skills-item__image skills-item__image--coding-ico"
+                  src="./img/skills/coding-ico.svg"
+                  alt="coding-ico"
+                />
+                <h3 class="skills-item__header">Web-developing</h3>
+                <ul class="skills-item__detail-list">
+                  <li class="skills-item__detail-item">HTML5</li>
+                  <li class="skills-item__detail-item">CSS</li>
+                  <li class="skills-item__detail-item">JS, typescript</li>
+                  <li class="skills-item__detail-item">React, Angular</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <section class="education">
-            <div class="education__container">
-                <h2 class="visually-hidden">Education</h2>
-                <p class="education__content">Ural Federal University - Master of Technology in Mathematical Software and Information Systems Administration</p>
-                <p class="education__content">Beijing University of Aeronautics and Astronautics Master of Computer Science</p>
-            </div>
+          <div class="education__container">
+            <h2 class="visually-hidden">Education</h2>
+            <p class="education__content">
+              Ural Federal University - Master of Technology in Mathematical
+              Software and Information Systems Administration
+            </p>
+            <p class="education__content">
+              Beijing University of Aeronautics and Astronautics Master of
+              Computer Science
+            </p>
+          </div>
         </section>
 
         <section class="experience">
-            <div class="experience__container">
-                <h2 class="section-header">Job Experience</h2>
-                <ul class="experience__list">
-                    <li class="experience__item">
-                        <div class="experience__item--header-container">
-                            <img class="experience__item--logo experience__item--tochka-logo" src="img/logo/tochka-logo.png" alt="tochka-logo">
-                            <div class="experience__item--caption">
-                                <h3 class="experience__item--header">Front-end Developer</h3>
-                                <p class="experience__item--company">Bank 'Toсhka'</p>
-                            </div>
-                        </div>
-                        <div class="swiper-container swiper-1">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="experience__item--content-container">
-                                        <p class="experience__item--duration">from july 2018 till present</p>
-                                        <p class="experience__item--content">I develop and support the front-end part of CRM:</p>
-                                        <ul class="experience__item--list">
-                                            <li class="experience__item--item">to write new components in Angular;</li>
-                                            <li class="experience__item--item">to mark-up new pages;</li>
-                                            <li class="experience__item--item">to rewrite old components;</li>
-                                            <li class="experience__item--item">to redesign layouts.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="experience__item--content-container">
-                                        <p class="experience__item--duration">Achievements</p>
-                                        <ul class="experience__item--list">
-                                            <li class="experience__item--item">made a complex state for each part of project with Redux;</li>
-                                            <li class="experience__item--item">redesigned basic tabs in material design;</li>
-                                            <li class="experience__item--item">set up routing;</li>
-                                            <li class="experience__item--item">added dialog scenarios.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination swiper-pagination-black"></div>
-                            <div class="swiper-button-prev swiper-button-black"></div>
-                            <div class="swiper-button-next swiper-button-black"></div>
-                        </div>
-                    </li>
-                    <li class="experience__item">
-                        <div class="experience__item--header-container">
-                            <img class="experience__item--logo experience__item--ideco-logo" src="img/logo/ideco-logo.png" alt="ideco-logo">
-                            <div class="experience__item--caption">
-                                <h3 class="experience__item--header">Senior Marketing Manager</h3>
-                                <p class="experience__item--company">Ideco</p>
-                            </div>
-                        </div>
-                        <div class="swiper-container swiper-2">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="experience__item--content-container">
-                                        <p class="experience__item--duration">from october 2017 till july 2018</p>
-                                        <p class="experience__item--content">My main task was to increase leads. To reach this I did the following:</p>
-                                        <ul class="experience__item--list">
-                                            <li class="experience__item--item">to run projects;</li>
-                                            <li class="experience__item--item">to develop the strategy for attracting people;</li>
-                                            <li class="experience__item--item">to create various e-mail sendings - from marking up to parsing database;</li>
-                                            <li class="experience__item--item">to make stunning <a class="experience__item--link"
-                                                                                            href="https://github.com/VanillaWulf/marketing" target="_blank">POSM</a>.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="experience__item--content-container">
-                                        <p class="experience__item--duration">Achievements</p>
-                                        <ul class="experience__item--list">
-                                            <li class="experience__item--item">600 downloads per month of product test version - 13.3% of all traffic;</li>
-                                            <li class="experience__item--item">4,000 contacts with sales managers per month;</li>
-                                            <li class="experience__item--item"><span class="experience__item--desktop">organised 20 webinars with total traffic of<br>approximately 50,000 people;</span>
-                                            <span class="experience__item--mobile">organised 20 webinars - 50,000 people;</span></li>
-                                            <li class="experience__item--item"><span class="experience__item--desktop">launched 5 landing pages with traffic<br>up to 10,000 people per month.</span>
-                                            <span class="experience__item--item experience__item--mobile">launched 5 landing pages with traffic approximately 10,000 people per month.</span></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination swiper-pagination-black"></div>
-                            <div class="swiper-button-prev swiper-button-black"></div>
-                            <div class="swiper-button-next swiper-button-black"></div>
-                        </div>
-                    </li>
-                    <li class="experience__item">
-                        <div class="experience__item--header-container">
-                            <img class="experience__item--logo experience__item--index-art-logo" src="img/logo/index-art-logo.png" alt="index-art-logo">
-                            <div class="experience__item--caption">
-                                <h3 class="experience__item--header">SEO-Analyst</h3>
-                                <p class="experience__item--company">AA 'Index Art'</p>
-                            </div>
-                        </div>
-                        <div class="swiper-container swiper-3">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="experience__item--content-container">
-                                        <p class="experience__item--duration">from january 2017 till october 2017</p>
-                                        <p class="experience__item--content">I did SEO and marketing analysis for companies from different spheres:</p>
-                                        <ul class="experience__item--list">
-                                            <li class="experience__item--item">training centres;</li>
-                                            <li class="experience__item--item">a real estate agency;</li>
-                                            <li class="experience__item--item">construction companies;</li>
-                                            <li class="experience__item--item">delivery companies;</li>
-                                            <li class="experience__item--item">producer of dietary supplements.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="experience__item--content-container">
-                                        <p class="experience__item--duration">Achievements</p>
-                                        <ul class="experience__item--list">
-                                            <li class="experience__item--item">successfully launched a new version of the site and relocated to another domain;</li>
-                                            <li class="experience__item--item">increased the traffic by 30% because of the reorganization of the section structure and pages;</li>
-                                            <li class="experience__item--item">launched the section for industrial construction;</li>
-                                            <li class="experience__item--item">extended region and increased the traffic by 40%.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination swiper-pagination-black"></div>
-                            <div class="swiper-button-prev swiper-button-black"></div>
-                            <div class="swiper-button-next swiper-button-black"></div>
-                        </div>
-                    </li>
-                    <li class="experience__item">
-                        <div class="experience__item--header-container">
-                            <img class="experience__item--logo experience__item--mn-logo" src="img/logo/mn-logo.png" alt="mn-logo">
-                            <div class="experience__item--caption">
-                                <h3 class="experience__item--header">SEO and Marketing Analyst</h3>
-                                <p class="experience__item--company">AA 'ManyLetters'</p>
-                            </div>
-                        </div>
-                        <div class="swiper-container swiper-4">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="experience__item--content-container">
-                                        <p class="experience__item--duration">from december 2015 till september 2016</p>
-                                        <p class="experience__item--content">I did SEO and marketing analysis for companies from different spheres:</p>
-                                        <ul class="experience__item--list">
-                                            <li class="experience__item--item">repair and sale of cars;</li>
-                                            <li class="experience__item--item">entertainment;</li>
-                                            <li class="experience__item--item">sale of tourist equipment;</li>
-                                            <li class="experience__item--item">cafe and restaurant;</li>
-                                            <li class="experience__item--item">production of building materials.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="experience__item--content-container">
-                                        <p class="experience__item--duration">Achievements</p>
-                                        <ul class="experience__item--list">
-                                            <li class="experience__item-item">CPC up to 0.2 ruble in media topics;</li>
-                                            <li class="experience__item-item">strategy of seasonal advancement by requests in the subject of building materials;</li>
-                                            <li class="experience__item-item">setting up contextual advertising on low-frequency kew words to optimize the budget.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination swiper-pagination-black"></div>
-                            <div class="swiper-button-prev swiper-button-black"></div>
-                            <div class="swiper-button-next swiper-button-black"></div>
-                        </div>
-                    </li>
-                    <li class="experience__item">
-                        <div class="experience__item--header-container">
-                            <img class="experience__item--logo experience__item--peleng-logo" src="img/logo/peleng-logo.png" alt="peleng-logo">
-                            <div class="experience__item--caption">
-                                <h3 class="experience__item--header">Software Engineer</h3>
-                                <p class="experience__item--company">Special Design Bureau</p>
-                            </div>
-                        </div>
-                        <div class="swiper-container swiper-5">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="experience__item--content-container">
-                                        <p class="experience__item--duration">from october 2013 till september 2014</p>
-                                        <p class="experience__item--content"> I was developing a messenger app like ICQ in C++:</p>
-                                        <ul class="experience__item--list">
-                                            <li class="experience__item--item">analyzed the technical task in detail;</li>
-                                            <li class="experience__item--item">rewrote old parts of the code;</li>
-                                            <li class="experience__item--item">tested the solution in conjunction with the service-receiver.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="experience__item--content-container">
-                                        <p class="experience__item--duration">Achievements</p>
-                                        <ul class="experience__item--list">
-                                            <li class="experience__item--item">new interface development.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination swiper-pagination-black"></div>
-                            <div class="swiper-button-prev swiper-button-black"></div>
-                            <div class="swiper-button-next swiper-button-black"></div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+          <div class="experience__container">
+            <h2 class="section-header">Job Experience</h2>
+            <ul class="experience__list">
+              <li class="experience__item">
+                <div class="experience__item--header-container">
+                  <img
+                    class="experience__item--logo experience__item--tochka-logo"
+                    src="img/logo/tochka-logo.png"
+                    alt="tochka-logo"
+                  />
+                  <div class="experience__item--caption">
+                    <h3 class="experience__item--header">
+                      Front-end Developer
+                    </h3>
+                    <p class="experience__item--company">Bank 'Toсhka'</p>
+                  </div>
+                </div>
+                <div class="swiper-container swiper-1">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="experience__item--content-container">
+                        <p class="experience__item--duration">
+                          from july 2018 till present
+                        </p>
+                        <p class="experience__item--content">
+                          I develop and support the front-end part of CRM:
+                        </p>
+                        <ul class="experience__item--list">
+                          <li class="experience__item--item">
+                            to write new components in Angular;
+                          </li>
+                          <li class="experience__item--item">
+                            to mark-up new pages;
+                          </li>
+                          <li class="experience__item--item">
+                            to rewrite old components;
+                          </li>
+                          <li class="experience__item--item">
+                            to redesign layouts.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="experience__item--content-container">
+                        <p class="experience__item--duration">Achievements</p>
+                        <ul class="experience__item--list">
+                          <li class="experience__item--item">
+                            made a complex state for each part of project with
+                            Redux;
+                          </li>
+                          <li class="experience__item--item">
+                            redesigned basic tabs in material design;
+                          </li>
+                          <li class="experience__item--item">
+                            set up routing;
+                          </li>
+                          <li class="experience__item--item">
+                            added dialog scenarios.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination swiper-pagination-black"></div>
+                  <div class="swiper-button-prev swiper-button-black"></div>
+                  <div class="swiper-button-next swiper-button-black"></div>
+                </div>
+              </li>
+              <li class="experience__item">
+                <div class="experience__item--header-container">
+                  <img
+                    class="experience__item--logo experience__item--ideco-logo"
+                    src="img/logo/ideco-logo.png"
+                    alt="ideco-logo"
+                  />
+                  <div class="experience__item--caption">
+                    <h3 class="experience__item--header">
+                      Senior Marketing Manager
+                    </h3>
+                    <p class="experience__item--company">Ideco</p>
+                  </div>
+                </div>
+                <div class="swiper-container swiper-2">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="experience__item--content-container">
+                        <p class="experience__item--duration">
+                          from october 2017 till july 2018
+                        </p>
+                        <p class="experience__item--content">
+                          My main task was to increase leads. To reach this I
+                          did the following:
+                        </p>
+                        <ul class="experience__item--list">
+                          <li class="experience__item--item">
+                            to run projects;
+                          </li>
+                          <li class="experience__item--item">
+                            to develop the strategy for attracting people;
+                          </li>
+                          <li class="experience__item--item">
+                            to create various e-mail sendings - from marking up
+                            to parsing database;
+                          </li>
+                          <li class="experience__item--item">
+                            to make stunning
+                            <a
+                              class="experience__item--link"
+                              href="https://github.com/VanillaWulf/marketing"
+                              target="_blank"
+                              >POSM</a
+                            >.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="experience__item--content-container">
+                        <p class="experience__item--duration">Achievements</p>
+                        <ul class="experience__item--list">
+                          <li class="experience__item--item">
+                            600 downloads per month of product test version -
+                            13.3% of all traffic;
+                          </li>
+                          <li class="experience__item--item">
+                            4,000 contacts with sales managers per month;
+                          </li>
+                          <li class="experience__item--item">
+                            <span class="experience__item--desktop"
+                              >organised 20 webinars with total traffic of<br />approximately
+                              50,000 people;</span
+                            >
+                            <span class="experience__item--mobile"
+                              >organised 20 webinars - 50,000 people;</span
+                            >
+                          </li>
+                          <li class="experience__item--item">
+                            <span class="experience__item--desktop"
+                              >launched 5 landing pages with traffic<br />up to
+                              10,000 people per month.</span
+                            >
+                            <span
+                              class="experience__item--item experience__item--mobile"
+                              >launched 5 landing pages with traffic
+                              approximately 10,000 people per month.</span
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination swiper-pagination-black"></div>
+                  <div class="swiper-button-prev swiper-button-black"></div>
+                  <div class="swiper-button-next swiper-button-black"></div>
+                </div>
+              </li>
+              <li class="experience__item">
+                <div class="experience__item--header-container">
+                  <img
+                    class="experience__item--logo experience__item--index-art-logo"
+                    src="img/logo/index-art-logo.png"
+                    alt="index-art-logo"
+                  />
+                  <div class="experience__item--caption">
+                    <h3 class="experience__item--header">SEO-Analyst</h3>
+                    <p class="experience__item--company">AA 'Index Art'</p>
+                  </div>
+                </div>
+                <div class="swiper-container swiper-3">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="experience__item--content-container">
+                        <p class="experience__item--duration">
+                          from january 2017 till october 2017
+                        </p>
+                        <p class="experience__item--content">
+                          I did SEO and marketing analysis for companies from
+                          different spheres:
+                        </p>
+                        <ul class="experience__item--list">
+                          <li class="experience__item--item">
+                            training centres;
+                          </li>
+                          <li class="experience__item--item">
+                            a real estate agency;
+                          </li>
+                          <li class="experience__item--item">
+                            construction companies;
+                          </li>
+                          <li class="experience__item--item">
+                            delivery companies;
+                          </li>
+                          <li class="experience__item--item">
+                            producer of dietary supplements.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="experience__item--content-container">
+                        <p class="experience__item--duration">Achievements</p>
+                        <ul class="experience__item--list">
+                          <li class="experience__item--item">
+                            successfully launched a new version of the site and
+                            relocated to another domain;
+                          </li>
+                          <li class="experience__item--item">
+                            increased the traffic by 30% because of the
+                            reorganization of the section structure and pages;
+                          </li>
+                          <li class="experience__item--item">
+                            launched the section for industrial construction;
+                          </li>
+                          <li class="experience__item--item">
+                            extended region and increased the traffic by 40%.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination swiper-pagination-black"></div>
+                  <div class="swiper-button-prev swiper-button-black"></div>
+                  <div class="swiper-button-next swiper-button-black"></div>
+                </div>
+              </li>
+              <li class="experience__item">
+                <div class="experience__item--header-container">
+                  <img
+                    class="experience__item--logo experience__item--mn-logo"
+                    src="img/logo/mn-logo.png"
+                    alt="mn-logo"
+                  />
+                  <div class="experience__item--caption">
+                    <h3 class="experience__item--header">
+                      SEO and Marketing Analyst
+                    </h3>
+                    <p class="experience__item--company">AA 'ManyLetters'</p>
+                  </div>
+                </div>
+                <div class="swiper-container swiper-4">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="experience__item--content-container">
+                        <p class="experience__item--duration">
+                          from december 2015 till september 2016
+                        </p>
+                        <p class="experience__item--content">
+                          I did SEO and marketing analysis for companies from
+                          different spheres:
+                        </p>
+                        <ul class="experience__item--list">
+                          <li class="experience__item--item">
+                            repair and sale of cars;
+                          </li>
+                          <li class="experience__item--item">entertainment;</li>
+                          <li class="experience__item--item">
+                            sale of tourist equipment;
+                          </li>
+                          <li class="experience__item--item">
+                            cafe and restaurant;
+                          </li>
+                          <li class="experience__item--item">
+                            production of building materials.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="experience__item--content-container">
+                        <p class="experience__item--duration">Achievements</p>
+                        <ul class="experience__item--list">
+                          <li class="experience__item-item">
+                            CPC up to 0.2 ruble in media topics;
+                          </li>
+                          <li class="experience__item-item">
+                            strategy of seasonal advancement by requests in the
+                            subject of building materials;
+                          </li>
+                          <li class="experience__item-item">
+                            setting up contextual advertising on low-frequency
+                            kew words to optimize the budget.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination swiper-pagination-black"></div>
+                  <div class="swiper-button-prev swiper-button-black"></div>
+                  <div class="swiper-button-next swiper-button-black"></div>
+                </div>
+              </li>
+              <li class="experience__item">
+                <div class="experience__item--header-container">
+                  <img
+                    class="experience__item--logo experience__item--peleng-logo"
+                    src="img/logo/peleng-logo.png"
+                    alt="peleng-logo"
+                  />
+                  <div class="experience__item--caption">
+                    <h3 class="experience__item--header">Software Engineer</h3>
+                    <p class="experience__item--company">
+                      Special Design Bureau
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-container swiper-5">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="experience__item--content-container">
+                        <p class="experience__item--duration">
+                          from october 2013 till september 2014
+                        </p>
+                        <p class="experience__item--content">
+                          I was developing a messenger app like ICQ in C++:
+                        </p>
+                        <ul class="experience__item--list">
+                          <li class="experience__item--item">
+                            analyzed the technical task in detail;
+                          </li>
+                          <li class="experience__item--item">
+                            rewrote old parts of the code;
+                          </li>
+                          <li class="experience__item--item">
+                            tested the solution in conjunction with the
+                            service-receiver.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="experience__item--content-container">
+                        <p class="experience__item--duration">Achievements</p>
+                        <ul class="experience__item--list">
+                          <li class="experience__item--item">
+                            new interface development.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination swiper-pagination-black"></div>
+                  <div class="swiper-button-prev swiper-button-black"></div>
+                  <div class="swiper-button-next swiper-button-black"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <section class="certificates">
-            <div class="certificates__container">
-                <h2 class="visually-hidden">Certificates</h2>
-                <ul class="certificates__list">
-                    <li class="certificates__item">
-                        <a class="certificates__item--link" href="https://www.credential.net/ob28b3ho" target="_blank">
-                            <img class="certificates__item--diploma-image" src="img/diploma.svg" alt="diploma-image">
-                            <span class="certificates__item--content">Build Front-End Web Apps</span>
-                        </a>
-                    </li>
-                    <li class="certificates__item">
-                        <a class="certificates__item--link" href="https://assets.htmlacademy.ru/certificates/intensive/67/473505.pdf" target="_blank">
-                            <img class="certificates__item--diploma-image" src="img/diploma.svg" alt="diploma-image">
-                            <span class="certificates__item--content">Professional HTML & CSS, level 1</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+          <div class="certificates__container">
+            <h2 class="visually-hidden">Certificates</h2>
+            <ul class="certificates__list">
+              <li class="certificates__item">
+                <a
+                  class="certificates__item--link"
+                  href="https://www.credential.net/ob28b3ho"
+                  target="_blank"
+                >
+                  <img
+                    class="certificates__item--diploma-image"
+                    src="img/diploma.svg"
+                    alt="diploma-image"
+                  />
+                  <span class="certificates__item--content"
+                    >Build Front-End Web Apps</span
+                  >
+                </a>
+              </li>
+              <li class="certificates__item">
+                <a
+                  class="certificates__item--link"
+                  href="https://assets.htmlacademy.ru/certificates/intensive/67/473505.pdf"
+                  target="_blank"
+                >
+                  <img
+                    class="certificates__item--diploma-image"
+                    src="img/diploma.svg"
+                    alt="diploma-image"
+                  />
+                  <span class="certificates__item--content"
+                    >Professional HTML & CSS, level 1</span
+                  >
+                </a>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <section class="projects">
-            <div class="projects__container">
-                <h2 class="section-header">My Projects</h2>
-                <ul class="projects__list">
-                    <li class="projects__item">
-                        <a class="projects__item--link" href="https://test-security-2018.herokuapp.com" target="_blank">
-                            <div class="projects__item--container">
-                                <img class="projects__item--ico projects__item--test-security-ico" src="img/projects/test-security-ico.svg" alt="test-security-ico">
-                                <img class="projects__item--ico projects__item--test-security-ico-hover" src="img/projects/test-security-ico-hover.svg" alt="test-security-ico">
-                            </div>
-                            <div class="projects__item--description">
-                                <h3 class="projects__item--header">Test Your Security</h3>
-                                <p class="projects__item--content">Goal: attracting the clients.</p>
-                                <p class="projects__item--content">Role: product manager and developer.</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="projects__item">
-                        <a class="projects__item--link" href="https://hardware.ideco.ru/" target="_blank">
-                            <div class="projects__item--container">
-                                <img class="projects__item--ico projects__item--hardware-ico" src="img/projects/hardware-ico.svg" alt="hardware-ico">
-                                <img class="projects__item--ico projects__item--hardware-ico-hover" src="img/projects/hardware-ico-hover.svg" alt="hardware-ico">
-                            </div>
-                            <div class="projects__item--description">
-                                <h3 class="projects__item--header">The Control of the Traffic</h3>
-                                <p class="projects__item--content">Goal: increasing the sales.</p>
-                                <p class="projects__item--content">Role: product manager.</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="projects__item">
-                        <a class="projects__item--link" href="https://salty-cliffs-43069.herokuapp.com/" target="_blank">
-                            <div class="projects__item--container">
-                                <img class="projects__item--ico projects__item--music-player-ico" src="img/projects/music-player-ico.svg" alt="music-player-ico">
-                                <img class="projects__item--ico projects__item--music-player-ico-hover" src="img/projects/music-player-ico-hover.svg" alt="music-player-ico">
-                            </div>
-                            <div class="projects__item--description">
-                                <h3 class="projects__item--header">Make Your Own Playlist</h3>
-                                <p class="projects__item--content">Goal: create a react app with Spotify API.</p>
-                                <p class="projects__item--content">Role: developer.</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="projects__item">
-                        <a class="projects__item--link" href="https://newyear.ideco.ru/" target="_blank">
-                            <div class="projects__item--container">
-                                <img class="projects__item--ico projects__item--new-year-ico" src="img/projects/new-year-ico.svg" alt="new-year-ico">
-                                <img class="projects__item--ico projects__item--new-year-ico-hover" src="img/projects/new-year-ico-hover.svg" alt="new-year-ico">
-                            </div>
-                            <div class="projects__item--description">
-                                <h3 class="projects__item--header">What Was New in 2017?</h3>
-                                <p class="projects__item--content">Goal: attracting the clients.</p>
-                                <p class="projects__item--content">Role: product manager.</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+          <div class="projects__container">
+            <h2 class="section-header">My Projects</h2>
+            <ul class="projects__list">
+              <li class="projects__item">
+                <a
+                  class="projects__item--link"
+                  href="https://test-security-2018.herokuapp.com"
+                  target="_blank"
+                >
+                  <div class="projects__item--container">
+                    <img
+                      class="projects__item--ico projects__item--test-security-ico"
+                      src="img/projects/test-security-ico.svg"
+                      alt="test-security-ico"
+                    />
+                    <img
+                      class="projects__item--ico projects__item--test-security-ico-hover"
+                      src="img/projects/test-security-ico-hover.svg"
+                      alt="test-security-ico"
+                    />
+                  </div>
+                  <div class="projects__item--description">
+                    <h3 class="projects__item--header">Test Your Security</h3>
+                    <p class="projects__item--content">
+                      Goal: attracting the clients.
+                    </p>
+                    <p class="projects__item--content">
+                      Role: product manager and developer.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="projects__item">
+                <a
+                  class="projects__item--link"
+                  href="https://hardware.ideco.ru/"
+                  target="_blank"
+                >
+                  <div class="projects__item--container">
+                    <img
+                      class="projects__item--ico projects__item--hardware-ico"
+                      src="img/projects/hardware-ico.svg"
+                      alt="hardware-ico"
+                    />
+                    <img
+                      class="projects__item--ico projects__item--hardware-ico-hover"
+                      src="img/projects/hardware-ico-hover.svg"
+                      alt="hardware-ico"
+                    />
+                  </div>
+                  <div class="projects__item--description">
+                    <h3 class="projects__item--header">
+                      The Control of the Traffic
+                    </h3>
+                    <p class="projects__item--content">
+                      Goal: increasing the sales.
+                    </p>
+                    <p class="projects__item--content">
+                      Role: product manager.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="projects__item">
+                <a
+                  class="projects__item--link"
+                  href="https://salty-cliffs-43069.herokuapp.com/"
+                  target="_blank"
+                >
+                  <div class="projects__item--container">
+                    <img
+                      class="projects__item--ico projects__item--music-player-ico"
+                      src="img/projects/music-player-ico.svg"
+                      alt="music-player-ico"
+                    />
+                    <img
+                      class="projects__item--ico projects__item--music-player-ico-hover"
+                      src="img/projects/music-player-ico-hover.svg"
+                      alt="music-player-ico"
+                    />
+                  </div>
+                  <div class="projects__item--description">
+                    <h3 class="projects__item--header">
+                      Make Your Own Playlist
+                    </h3>
+                    <p class="projects__item--content">
+                      Goal: create a react app with Spotify API.
+                    </p>
+                    <p class="projects__item--content">Role: developer.</p>
+                  </div>
+                </a>
+              </li>
+              <li class="projects__item">
+                <a
+                  class="projects__item--link"
+                  href="https://newyear.ideco.ru/"
+                  target="_blank"
+                >
+                  <div class="projects__item--container">
+                    <img
+                      class="projects__item--ico projects__item--new-year-ico"
+                      src="img/projects/new-year-ico.svg"
+                      alt="new-year-ico"
+                    />
+                    <img
+                      class="projects__item--ico projects__item--new-year-ico-hover"
+                      src="img/projects/new-year-ico-hover.svg"
+                      alt="new-year-ico"
+                    />
+                  </div>
+                  <div class="projects__item--description">
+                    <h3 class="projects__item--header">
+                      What Was New in 2017?
+                    </h3>
+                    <p class="projects__item--content">
+                      Goal: attracting the clients.
+                    </p>
+                    <p class="projects__item--content">
+                      Role: product manager.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <section class="motivation">
-            <div class="motivation__container">
-                <h2 class="section-header">Motivation</h2>
-                <p class="motivation__content">The main key for me is to appreciate and love what I do, and people for whom I do this.</p>
-            </div>
+          <div class="motivation__container">
+            <h2 class="section-header">Motivation</h2>
+            <p class="motivation__content">
+              The main key for me is to appreciate and love what I do, and
+              people for whom I do this.
+            </p>
+          </div>
         </section>
-    </main>
+      </main>
 
-    <footer class="footer">
+      <footer class="footer">
         <h2 class="footer__header">Find Me Everywhere You Like</h2>
-            <ul class="footer__social-list">
-                <li class="footer__social-item">
-                    <a class="footer__social-item--link"
-                       href="https://www.facebook.com/WilliamLawsonz" target="_blank">
-                        <img class="footer__social-item--ico" src="img/social/fb-ico.svg" alt="fb-ico">
-                    </a>
-                </li>
-                <li class="footer__social-item">
-                    <a class="footer__social-item--link" target="_blank"
-                    href="https://github.com/VanillaWulf">
-                        <img class="footer__social-item--ico" src="img/social/github-ico.svg" alt="github-ico">
-                    </a>
-                </li>
-                <li class="footer__social-item">
-                    <a class="footer__social-item--link" target="_blank"
-                    href="mailto:annarsve@gmail.com">
-                        <img class="footer__social-item--ico" src="img/social/gmail-ico.svg" alt="gmail-ico">
-                    </a>
-                </li>
-                <li class="footer__social-item">
-                    <a class="footer__social-item--link" target="_blank"
-                       href="https://tlgg.ru/vanillawulf">
-                        <img class="footer__social-item--ico" src="img/social/tg-ico.svg" alt="tg-ico">
-                    </a>
-                </li>
-                <li class="footer__social-item">
-                    <a class="footer__social-item--link" target="_blank"
-                       href="https://www.linkedin.com/in/anna-rusyaeva-6b1276148/">
-                    <img class="footer__social-item--ico" src="img/social/linkedin-ico.svg" alt="linkedin-ico">
-                </a></li>
-            </ul>
-    </footer>
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a
+              class="footer__social-item--link"
+              href="https://www.facebook.com/WilliamLawsonz"
+              target="_blank"
+            >
+              <img
+                class="footer__social-item--ico"
+                src="img/social/fb-ico.svg"
+                alt="fb-ico"
+              />
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              class="footer__social-item--link"
+              target="_blank"
+              href="https://github.com/VanillaWulf"
+            >
+              <img
+                class="footer__social-item--ico"
+                src="img/social/github-ico.svg"
+                alt="github-ico"
+              />
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              class="footer__social-item--link"
+              target="_blank"
+              href="mailto:annarsve@gmail.com"
+            >
+              <img
+                class="footer__social-item--ico"
+                src="img/social/gmail-ico.svg"
+                alt="gmail-ico"
+              />
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              class="footer__social-item--link"
+              target="_blank"
+              href="https://tlgg.ru/vanillawulf"
+            >
+              <img
+                class="footer__social-item--ico"
+                src="img/social/tg-ico.svg"
+                alt="tg-ico"
+              />
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              class="footer__social-item--link"
+              target="_blank"
+              href="https://www.linkedin.com/in/anna-rusyaeva-6b1276148/"
+            >
+              <img
+                class="footer__social-item--ico"
+                src="img/social/linkedin-ico.svg"
+                alt="linkedin-ico"
+              />
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
     <script src="js/scripts.min.js"></script>
     <script src="js/swiper.min.js"></script>
-</body>
+  </body>
 </html>
