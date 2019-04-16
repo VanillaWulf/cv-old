@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b23500db-3c47-4d15-9b69-2905c13462ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rus.html" beforeDir="false" afterPath="$PROJECT_DIR$/rus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/experience.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/experience.min.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,11 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/experience.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="3187" selection-start-column="3187" selection-end-column="3187" />
+              <caret column="1623" selection-start-column="1623" selection-end-column="1623" />
             </state>
           </provider>
         </entry>
@@ -120,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="195" column="41" selection-start-line="195" selection-start-column="41" selection-end-line="195" selection-end-column="41" />
+            <state relative-caret-position="210">
+              <caret line="209" column="46" selection-start-line="209" selection-start-column="46" selection-end-line="209" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -210,11 +208,11 @@
         <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/css/normalize.min.css" />
         <option value="$PROJECT_DIR$/css/header.min.css" />
-        <option value="$PROJECT_DIR$/css/experience.min.css" />
         <option value="$PROJECT_DIR$/mail-examples/product.html" />
         <option value="$PROJECT_DIR$/css/projects.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/rus.html" />
+        <option value="$PROJECT_DIR$/css/experience.min.css" />
       </list>
     </option>
   </component>
@@ -392,12 +390,12 @@
       <workItem from="1553839276697" duration="54000" />
       <workItem from="1554029935267" duration="1557000" />
       <workItem from="1554204084705" duration="524000" />
-      <workItem from="1555429592778" duration="45000" />
+      <workItem from="1555429592778" duration="327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144748000" />
+    <option name="totallyTimeSpent" value="145030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -582,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/experience.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3187" selection-start-column="3187" selection-end-column="3187" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/education.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -619,8 +610,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rus.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="209" column="46" selection-start-line="209" selection-start-column="46" selection-end-line="209" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/experience.min.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="195" column="41" selection-start-line="195" selection-start-column="41" selection-end-line="195" selection-end-column="41" />
+          <caret column="1623" selection-start-column="1623" selection-end-column="1623" />
         </state>
       </provider>
     </entry>
