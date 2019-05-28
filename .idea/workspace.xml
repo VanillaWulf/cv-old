@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b23500db-3c47-4d15-9b69-2905c13462ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/rus.html" beforeDir="false" afterPath="$PROJECT_DIR$/rus.html" afterDir="false" />
-    </list>
+    <list default="true" id="b23500db-3c47-4d15-9b69-2905c13462ef" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +12,7 @@
     <session id="1083872078">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="56" />
+          <entry key="project.closed" value="57" />
           <entry key="project.open.time.0" value="14" />
           <entry key="project.open.time.1" value="12" />
           <entry key="project.open.time.10" value="7" />
@@ -121,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="701" column="49" selection-start-line="701" selection-start-column="49" selection-end-line="701" selection-end-column="49" />
+            <state relative-caret-position="535">
+              <caret line="713" column="35" lean-forward="true" selection-start-line="713" selection-start-column="35" selection-end-line="713" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -394,12 +392,12 @@
       <workItem from="1557047033944" duration="646000" />
       <workItem from="1558763832818" duration="833000" />
       <workItem from="1558813611815" duration="3000" />
-      <workItem from="1558861269515" duration="143000" />
+      <workItem from="1558861269515" duration="656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146655000" />
+    <option name="totallyTimeSpent" value="147168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -621,8 +619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="701" column="49" selection-start-line="701" selection-start-column="49" selection-end-line="701" selection-end-column="49" />
+        <state relative-caret-position="535">
+          <caret line="713" column="35" lean-forward="true" selection-start-line="713" selection-start-column="35" selection-end-line="713" selection-end-column="35" />
         </state>
       </provider>
     </entry>
