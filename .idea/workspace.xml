@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b23500db-3c47-4d15-9b69-2905c13462ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin-app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-app.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rus.html" beforeDir="false" afterPath="$PROJECT_DIR$/rus.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,40 +23,6 @@
         <option value="CSS File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>expiri</find>
-      <find>swiper-container-horizontal</find>
-      <find>.swiper-container-horizontal</find>
-      <find>exp</find>
-      <find>1300</find>
-      <find>skills-</find>
-      <find>skills-i</find>
-      <find>.skills-item__detail-list</find>
-      <find>.skills-item__image--helm-ico</find>
-      <find>col-1</find>
-      <find>.swiper-button-next,</find>
-      <find>skills-item__detail-list</find>
-      <find>section-header</find>
-      <find>header</find>
-      <find>certificates</find>
-      <find>edu</find>
-      <find>experience</find>
-      <find>footer</find>
-      <find>projects</find>
-      <find>skills</find>
-      <find>box</find>
-      <find>backg</find>
-      <find>swiper-button-next</find>
-      <find>skills--item__col-2</find>
-      <find>photo</find>
-      <find>traf</find>
-      <find>con</find>
-      <find>produc</find>
-      <find>produ</find>
-      <find>prod</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,6 +44,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -194,6 +165,8 @@
       <workItem from="1567330698829" duration="310000" />
       <workItem from="1567331215930" duration="44000" />
       <workItem from="1574093404000" duration="919000" />
+      <workItem from="1587120623912" duration="1855000" />
+      <workItem from="1587124740864" duration="864000" />
     </task>
     <servers />
   </component>
