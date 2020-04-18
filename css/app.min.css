@@ -27,6 +27,7 @@
 .fin-app .swiper-slide {
   width: 900px;
   height: 600px;
+  align-items: center;
 }
 
 .fin-app {
@@ -45,26 +46,26 @@
 
 .data-collection-swiper-img--2 {
   width: 800px;
-  height: 120px;
+  height: 100px;
 }
 
 .schedule-swiper-img--1 {
   width: 800px;
-  height: 600px;
+  height: 500px;
 }
 
 .schedule-swiper-img--2 {
   width: 800px;
-  height: 200px;
+  height: 150px;
 }
 
 .submission-swiper-img {
   width: 800px;
-  height: 300px;
+  height: 250px;
 }
 
 .viewer-swiper-img {
-  width: 330px;
+  width: 300px;
   height: 600px;
 }
 
@@ -75,7 +76,113 @@
 
 .calenader-swiper-img {
   width: 400px;
-  height: 400px;
+  height: 350px;
+}
+
+@media screen and (max-width: 910px) {
+  .fin-app .swiper-slide {
+    width: 450px;
+    height: 300px;
+  }
+
+  .fin-app {
+    width: 450px;
+    height: 350px;
+    padding: 40px 0 0 0;
+  }
+
+  .data-collection-swiper-img--1 {
+    width: 400px;
+    height: 250px;
+  }
+
+  .data-collection-swiper-img--2 {
+    width: 400px;
+    height: 50px;
+  }
+
+  .schedule-swiper-img--1 {
+    width: 400px;
+    height: 250px;
+  }
+
+  .schedule-swiper-img--2 {
+    width: 400px;
+    height: 75px;
+  }
+
+  .submission-swiper-img {
+    width: 400px;
+    height: 125px;
+  }
+
+  .viewer-swiper-img {
+    width: 150px;
+    height: 300px;
+  }
+
+  .sharescreen-swiper-img {
+    width: 250px;
+    height: 150px;
+  }
+
+  .calenader-swiper-img {
+    width: 200px;
+    height: 175px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .fin-app .swiper-slide {
+    width: 225px;
+    height: 150px;
+  }
+
+  .fin-app {
+    width: 225px;
+    height: 170px;
+    padding: 20px 0 0 0;
+  }
+
+  .data-collection-swiper-img--1 {
+    width: 200px;
+    height: 125;
+  }
+
+  .data-collection-swiper-img--2 {
+    width: 200px;
+    height: 25px;
+  }
+
+  .schedule-swiper-img--1 {
+    width: 200px;
+    height: 125px;
+  }
+
+  .schedule-swiper-img--2 {
+    width: 200px;
+    height: 36px;
+  }
+
+  .submission-swiper-img {
+    width: 200px;
+    height: 62px;
+  }
+
+  .viewer-swiper-img {
+    width: 75px;
+    height: 150px;
+  }
+
+  .sharescreen-swiper-img {
+    width: 125px;
+    height: 75px;
+  }
+
+  .calenader-swiper-img {
+    width: 100px;
+    height: 80px;
+  }
 }
 
 @media screen and (max-width: 800px) {
