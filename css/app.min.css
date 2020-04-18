@@ -13,10 +13,69 @@
   height: 688px;
 }
 
+.data-collection-swiper-img--2 {
+  width: 200px;
+  height: 100px;
+}
+
 
 .app .swiper-slide {
   display: flex;
   justify-content: center;
+}
+
+.fin-app .swiper-slide {
+  width: 900px;
+  height: 600px;
+}
+
+.fin-app {
+  width: 900px;
+  height: 650px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  padding: 40px 0 0 0;
+}
+
+.data-collection-swiper-img--1 {
+  width: 800px;
+  height: 500px;
+}
+
+.data-collection-swiper-img--2 {
+  width: 800px;
+  height: 120px;
+}
+
+.schedule-swiper-img--1 {
+  width: 800px;
+  height: 600px;
+}
+
+.schedule-swiper-img--2 {
+  width: 800px;
+  height: 200px;
+}
+
+.submission-swiper-img {
+  width: 800px;
+  height: 300px;
+}
+
+.viewer-swiper-img {
+  width: 330px;
+  height: 600px;
+}
+
+.sharescreen-swiper-img {
+  width: 500px;
+  height: 300px;
+}
+
+.calenader-swiper-img {
+  width: 400px;
+  height: 400px;
 }
 
 @media screen and (max-width: 800px) {
