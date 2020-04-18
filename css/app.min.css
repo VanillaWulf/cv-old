@@ -1,0 +1,54 @@
+.mobile-app {
+  width: 600px;
+  height: 750px;
+  position: relative;
+  overflow: scroll;
+  margin: auto;
+  padding: 40px 0 0 0;
+}
+
+
+.mobile-app-swiper-img {
+  width:  333px;
+  height: 688px;
+}
+
+
+.app .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .mobile-app {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    padding: 40px 0 0 0;
+  }
+
+
+  .mobile-app-swiper-img {
+    width:  222px;
+    height: 459px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mobile-app {
+    width: 200px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    padding: 20px 0 0 0;
+  }
+
+
+  .mobile-app-swiper-img {
+    width:  111px;
+    height: 229px;
+  }
+}

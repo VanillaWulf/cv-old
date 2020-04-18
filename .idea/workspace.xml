@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b23500db-3c47-4d15-9b69-2905c13462ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fin-app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fin-app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fin-app.html" beforeDir="false" afterPath="$PROJECT_DIR$/fin-app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/projects/icecream-ico.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rus.html" beforeDir="false" afterPath="$PROJECT_DIR$/rus.html" afterDir="false" />
     </list>
@@ -26,11 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
   </component>
   <component name="ProjectId" id="1QELE3nD20bDRiqienHsmGds6Je" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -167,6 +162,7 @@
       <workItem from="1574093404000" duration="919000" />
       <workItem from="1587120623912" duration="1855000" />
       <workItem from="1587124740864" duration="864000" />
+      <workItem from="1587196444542" duration="1751000" />
     </task>
     <servers />
   </component>
