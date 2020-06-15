@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b23500db-3c47-4d15-9b69-2905c13462ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/fin-app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin-app.html" beforeDir="false" afterPath="$PROJECT_DIR$/fin-app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/icecream-ico.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/experience.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/experience.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/CV.docx" beforeDir="false" afterPath="$PROJECT_DIR$/download/CV.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/resume.docx" beforeDir="false" afterPath="$PROJECT_DIR$/download/resume.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rus.html" beforeDir="false" afterPath="$PROJECT_DIR$/rus.html" afterDir="false" />
     </list>
@@ -163,6 +163,8 @@
       <workItem from="1587120623912" duration="1855000" />
       <workItem from="1587124740864" duration="864000" />
       <workItem from="1587196444542" duration="1751000" />
+      <workItem from="1592123961759" duration="646000" />
+      <workItem from="1592182372483" duration="1730000" />
     </task>
     <servers />
   </component>
